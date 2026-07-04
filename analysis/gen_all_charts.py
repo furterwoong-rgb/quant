@@ -6,9 +6,7 @@ sys.path.insert(0, "/Users/woongyeol/quant_trading")
 
 from pathlib import Path
 from analysis.live_chart import draw_candle_chart
-
-API_KEY    = "PK2RBO7VGCFLUZZIURKYKWNZQP"
-SECRET_KEY = "8QN3QLm6Dom8S4WBX35vjsENSx2nZdp81YNwhhPeDtC7"
+from config.settings import ALPACA_API_KEY as API_KEY, ALPACA_SECRET_KEY as SECRET_KEY
 
 DATES = [
     ("2026-05-18", "18"),

@@ -1,9 +1,17 @@
 __pycache__/
 *.pyc
 .DS_Store
+quant-env/
 
 # secrets
 config/.env
+*.key
+*.pem
+
+# db files
+*.sqlite
+*.sqlite3
+*.db
 
 # large tick data cache - kept local only
 logs/tick_cache/
