@@ -1,0 +1,569 @@
+{
+  "tier": 3,
+  "result": "FAIL",
+  "monotonic_5s": false,
+  "spearman_r_5s": -0.6,
+  "spearman_p_5s": 0.4,
+  "perm_p_value_5s": 0.8348,
+  "block_p_value_5s": 0.5165,
+  "perm_significant_5s": false,
+  "block_significant_5s": false,
+  "fwd_return_dist": {
+    "ret_1s": [
+      {
+        "label": "전체 (>0.25)",
+        "threshold": 0.25,
+        "N": 731,
+        "mean_ret": -7.3786046511627896e-06,
+        "std_ret": 0.00011641849679906731,
+        "note": ""
+      },
+      {
+        "label": "상위 50% (>0.30)",
+        "threshold": 0.3,
+        "N": 356,
+        "mean_ret": -1.1069129213483148e-05,
+        "std_ret": 0.00013654814616025724,
+        "note": ""
+      },
+      {
+        "label": "상위 25% (>0.35)",
+        "threshold": 0.35,
+        "N": 170,
+        "mean_ret": -2.2135823529411766e-05,
+        "std_ret": 0.00016298494357685234,
+        "note": ""
+      },
+      {
+        "label": "상위 10% (>0.40)",
+        "threshold": 0.4,
+        "N": 82,
+        "mean_ret": -1.6809756097560976e-05,
+        "std_ret": 0.00017310044735359257,
+        "note": ""
+      }
+    ],
+    "ret_5s": [
+      {
+        "label": "전체 (>0.25)",
+        "threshold": 0.25,
+        "N": 731,
+        "mean_ret": -1.7130916552667572e-06,
+        "std_ret": 0.00015956098199804988,
+        "note": ""
+      },
+      {
+        "label": "상위 50% (>0.30)",
+        "threshold": 0.3,
+        "N": 356,
+        "mean_ret": -4.384213483146067e-06,
+        "std_ret": 0.00015194702491866423,
+        "note": ""
+      },
+      {
+        "label": "상위 25% (>0.35)",
+        "threshold": 0.35,
+        "N": 170,
+        "mean_ret": -1.2605e-05,
+        "std_ret": 0.00017984894413262842,
+        "note": ""
+      },
+      {
+        "label": "상위 10% (>0.40)",
+        "threshold": 0.4,
+        "N": 82,
+        "mean_ret": -1.5670731707317114e-06,
+        "std_ret": 0.00018780479234006733,
+        "note": ""
+      }
+    ],
+    "ret_10s": [
+      {
+        "label": "전체 (>0.25)",
+        "threshold": 0.25,
+        "N": 731,
+        "mean_ret": 3.7977428180574553e-06,
+        "std_ret": 0.00020045565366843082,
+        "note": ""
+      },
+      {
+        "label": "상위 50% (>0.30)",
+        "threshold": 0.3,
+        "N": 356,
+        "mean_ret": -3.5583426966292135e-06,
+        "std_ret": 0.0001883535833219091,
+        "note": ""
+      },
+      {
+        "label": "상위 25% (>0.35)",
+        "threshold": 0.35,
+        "N": 170,
+        "mean_ret": 4.918823529411766e-06,
+        "std_ret": 0.00019927158424760055,
+        "note": ""
+      },
+      {
+        "label": "상위 10% (>0.40)",
+        "threshold": 0.4,
+        "N": 82,
+        "mean_ret": 1.8044268292682933e-05,
+        "std_ret": 0.00021451068083586856,
+        "note": ""
+      }
+    ],
+    "ret_30s": [
+      {
+        "label": "전체 (>0.25)",
+        "threshold": 0.25,
+        "N": 731,
+        "mean_ret": -2.768262653898786e-07,
+        "std_ret": 0.00030688097643972415,
+        "note": ""
+      },
+      {
+        "label": "상위 50% (>0.30)",
+        "threshold": 0.3,
+        "N": 356,
+        "mean_ret": -2.0280028089887637e-05,
+        "std_ret": 0.000308774884257852,
+        "note": ""
+      },
+      {
+        "label": "상위 25% (>0.35)",
+        "threshold": 0.35,
+        "N": 170,
+        "mean_ret": -1.2184705882352943e-05,
+        "std_ret": 0.0002888544766560361,
+        "note": ""
+      },
+      {
+        "label": "상위 10% (>0.40)",
+        "threshold": 0.4,
+        "N": 82,
+        "mean_ret": -5.024512195121956e-06,
+        "std_ret": 0.0002895074999269564,
+        "note": ""
+      }
+    ],
+    "ret_60s": [
+      {
+        "label": "전체 (>0.25)",
+        "threshold": 0.25,
+        "N": 731,
+        "mean_ret": 4.036292749658003e-05,
+        "std_ret": 0.000420960953367306,
+        "note": ""
+      },
+      {
+        "label": "상위 50% (>0.30)",
+        "threshold": 0.3,
+        "N": 356,
+        "mean_ret": 2.683823033707865e-05,
+        "std_ret": 0.00038092211152170627,
+        "note": ""
+      },
+      {
+        "label": "상위 25% (>0.35)",
+        "threshold": 0.35,
+        "N": 170,
+        "mean_ret": 3.672082352941176e-05,
+        "std_ret": 0.0003705761209881919,
+        "note": ""
+      },
+      {
+        "label": "상위 10% (>0.40)",
+        "threshold": 0.4,
+        "N": 82,
+        "mean_ret": 6.49069512195122e-05,
+        "std_ret": 0.0004082044023289235,
+        "note": ""
+      }
+    ]
+  },
+  "monotonicity": {
+    "ret_1s": {
+      "horizon": 1,
+      "me_bin_labels": [
+        "0.25~0.30",
+        "0.30~0.35",
+        "0.35~0.40",
+        ">0.40"
+      ],
+      "me_avg_returns": [
+        -4e-06,
+        -1e-06,
+        -2.7e-05,
+        -1.7e-05
+      ],
+      "me_sample_sizes": [
+        375,
+        186,
+        88,
+        82
+      ],
+      "strict_monotonic": false,
+      "spearman_r": -0.6,
+      "spearman_p": 0.4,
+      "is_monotonic": false,
+      "valid_bins_used": 4
+    },
+    "ret_5s": {
+      "horizon": 5,
+      "me_bin_labels": [
+        "0.25~0.30",
+        "0.30~0.35",
+        "0.35~0.40",
+        ">0.40"
+      ],
+      "me_avg_returns": [
+        1e-06,
+        3e-06,
+        -2.3e-05,
+        -2e-06
+      ],
+      "me_sample_sizes": [
+        375,
+        186,
+        88,
+        82
+      ],
+      "strict_monotonic": false,
+      "spearman_r": -0.6,
+      "spearman_p": 0.4,
+      "is_monotonic": false,
+      "valid_bins_used": 4
+    },
+    "ret_10s": {
+      "horizon": 10,
+      "me_bin_labels": [
+        "0.25~0.30",
+        "0.30~0.35",
+        "0.35~0.40",
+        ">0.40"
+      ],
+      "me_avg_returns": [
+        1.1e-05,
+        -1.1e-05,
+        -7e-06,
+        1.8e-05
+      ],
+      "me_sample_sizes": [
+        375,
+        186,
+        88,
+        82
+      ],
+      "strict_monotonic": false,
+      "spearman_r": 0.4,
+      "spearman_p": 0.6,
+      "is_monotonic": false,
+      "valid_bins_used": 4
+    },
+    "ret_30s": {
+      "horizon": 30,
+      "me_bin_labels": [
+        "0.25~0.30",
+        "0.30~0.35",
+        "0.35~0.40",
+        ">0.40"
+      ],
+      "me_avg_returns": [
+        1.9e-05,
+        -2.8e-05,
+        -1.9e-05,
+        -5e-06
+      ],
+      "me_sample_sizes": [
+        375,
+        186,
+        88,
+        82
+      ],
+      "strict_monotonic": false,
+      "spearman_r": -0.2,
+      "spearman_p": 0.8,
+      "is_monotonic": false,
+      "valid_bins_used": 4
+    },
+    "ret_60s": {
+      "horizon": 60,
+      "me_bin_labels": [
+        "0.25~0.30",
+        "0.30~0.35",
+        "0.35~0.40",
+        ">0.40"
+      ],
+      "me_avg_returns": [
+        5.3e-05,
+        1.8e-05,
+        1e-05,
+        6.5e-05
+      ],
+      "me_sample_sizes": [
+        375,
+        186,
+        88,
+        82
+      ],
+      "strict_monotonic": false,
+      "spearman_r": 0.2,
+      "spearman_p": 0.8,
+      "is_monotonic": false,
+      "valid_bins_used": 4
+    }
+  },
+  "selectivity": {
+    "ret_1s": {
+      "horizon": 1,
+      "rows": [
+        {
+          "label": "전체 (>0.25)",
+          "threshold": -0.8812,
+          "N": 12207,
+          "PF": 0.983,
+          "note": ""
+        },
+        {
+          "label": "상위 50% (>p50)",
+          "threshold": 0.0338,
+          "N": 6102,
+          "PF": 1.012,
+          "note": ""
+        },
+        {
+          "label": "상위 25% (>p75)",
+          "threshold": 0.1375,
+          "N": 3050,
+          "PF": 1.047,
+          "note": ""
+        },
+        {
+          "label": "상위 10% (>p90)",
+          "threshold": 0.2193,
+          "N": 1222,
+          "PF": 1.011,
+          "note": ""
+        },
+        {
+          "label": "상위 5% (>p95)",
+          "threshold": 0.2644,
+          "N": 611,
+          "PF": 0.719,
+          "note": ""
+        },
+        {
+          "label": "상위 1% (>p99)",
+          "threshold": 0.3722,
+          "N": 123,
+          "PF": 0.562,
+          "note": ""
+        }
+      ]
+    },
+    "ret_5s": {
+      "horizon": 5,
+      "rows": [
+        {
+          "label": "전체 (>0.25)",
+          "threshold": -0.8812,
+          "N": 12212,
+          "PF": 1.087,
+          "note": ""
+        },
+        {
+          "label": "상위 50% (>p50)",
+          "threshold": 0.0338,
+          "N": 6106,
+          "PF": 1.077,
+          "note": ""
+        },
+        {
+          "label": "상위 25% (>p75)",
+          "threshold": 0.1375,
+          "N": 3053,
+          "PF": 1.134,
+          "note": ""
+        },
+        {
+          "label": "상위 10% (>p90)",
+          "threshold": 0.2193,
+          "N": 1222,
+          "PF": 1.222,
+          "note": ""
+        },
+        {
+          "label": "상위 5% (>p95)",
+          "threshold": 0.2644,
+          "N": 611,
+          "PF": 0.846,
+          "note": ""
+        },
+        {
+          "label": "상위 1% (>p99)",
+          "threshold": 0.3722,
+          "N": 123,
+          "PF": 0.872,
+          "note": ""
+        }
+      ]
+    }
+  },
+  "permutation_tests": {
+    "ret_1s": {
+      "horizon": 1,
+      "n_signal": 731,
+      "n_non_signal": 11477,
+      "obs_diff": -7e-06,
+      "p_value_perm": 0.9464,
+      "significant": false,
+      "n_permutations": 10000
+    },
+    "ret_5s": {
+      "horizon": 5,
+      "n_signal": 731,
+      "n_non_signal": 11482,
+      "obs_diff": -7e-06,
+      "p_value_perm": 0.8348,
+      "significant": false,
+      "n_permutations": 10000
+    },
+    "ret_10s": {
+      "horizon": 10,
+      "n_signal": 731,
+      "n_non_signal": 11482,
+      "obs_diff": 0.0,
+      "p_value_perm": 0.4867,
+      "significant": false,
+      "n_permutations": 10000
+    },
+    "ret_30s": {
+      "horizon": 30,
+      "n_signal": 731,
+      "n_non_signal": 11482,
+      "obs_diff": 0.0,
+      "p_value_perm": 0.494,
+      "significant": false,
+      "n_permutations": 10000
+    },
+    "ret_60s": {
+      "horizon": 60,
+      "n_signal": 731,
+      "n_non_signal": 11482,
+      "obs_diff": 4.5e-05,
+      "p_value_perm": 0.0055,
+      "significant": true,
+      "n_permutations": 10000
+    }
+  },
+  "statistical_tests": {
+    "ret_1s": {
+      "horizon": 1,
+      "n_signal": 731,
+      "n_baseline": 12213,
+      "obs_diff": -9e-06,
+      "p_value_block": 0.5246,
+      "p_value_ttest": 0.9747,
+      "cohens_d": -0.0761,
+      "significant": false,
+      "block_size": 10,
+      "n_bootstrap": 10000
+    },
+    "ret_5s": {
+      "horizon": 5,
+      "n_signal": 731,
+      "n_baseline": 12213,
+      "obs_diff": -8e-06,
+      "p_value_block": 0.5165,
+      "p_value_ttest": 0.8928,
+      "cohens_d": -0.0438,
+      "significant": false,
+      "block_size": 10,
+      "n_bootstrap": 10000
+    },
+    "ret_10s": {
+      "horizon": 10,
+      "n_signal": 731,
+      "n_baseline": 12213,
+      "obs_diff": 0.0,
+      "p_value_block": 0.4397,
+      "p_value_ttest": 0.4815,
+      "cohens_d": 0.0016,
+      "significant": false,
+      "block_size": 10,
+      "n_bootstrap": 10000
+    },
+    "ret_30s": {
+      "horizon": 30,
+      "n_signal": 731,
+      "n_baseline": 12213,
+      "obs_diff": 0.0,
+      "p_value_block": 0.5285,
+      "p_value_ttest": 0.4891,
+      "cohens_d": 0.001,
+      "significant": false,
+      "block_size": 10,
+      "n_bootstrap": 10000
+    },
+    "ret_60s": {
+      "horizon": 60,
+      "n_signal": 731,
+      "n_baseline": 12213,
+      "obs_diff": 4.8e-05,
+      "p_value_block": 0.4468,
+      "p_value_ttest": 0.0015,
+      "cohens_d": 0.1083,
+      "significant": false,
+      "block_size": 10,
+      "n_bootstrap": 10000
+    }
+  },
+  "params": {
+    "n_bootstrap": 10000,
+    "block_size": 10,
+    "min_sample": 50,
+    "signal_bins": [
+      {
+        "label": "전체 (>0.25)",
+        "threshold": 0.25
+      },
+      {
+        "label": "상위 50% (>0.30)",
+        "threshold": 0.3
+      },
+      {
+        "label": "상위 25% (>0.35)",
+        "threshold": 0.35
+      },
+      {
+        "label": "상위 10% (>0.40)",
+        "threshold": 0.4
+      }
+    ],
+    "me_bins": [
+      {
+        "label": "0.25~0.30",
+        "lo": 0.25,
+        "hi": 0.3
+      },
+      {
+        "label": "0.30~0.35",
+        "lo": 0.3,
+        "hi": 0.35
+      },
+      {
+        "label": "0.35~0.40",
+        "lo": 0.35,
+        "hi": 0.4
+      },
+      {
+        "label": ">0.40",
+        "lo": 0.4,
+        "hi": 1.01
+      }
+    ],
+    "pass_criteria": {
+      "primary": "permutation p<0.05 AND Spearman r>0, p<0.10",
+      "secondary": "block_bootstrap p<0.05 (참고용)"
+    }
+  }
+}

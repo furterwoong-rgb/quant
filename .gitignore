@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.DS_Store
+
+# secrets
+config/.env
+
+# large tick data cache - kept local only
+logs/tick_cache/

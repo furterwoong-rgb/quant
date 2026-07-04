@@ -1,0 +1,16 @@
+{
+  "date": "2026-05-28",
+  "daily_buy_notional": 39656.81774375011,
+  "QQQ": {
+    "direction": "flat",
+    "entry_px": 0.0,
+    "qty": 0,
+    "pnl_peak": 0.0,
+    "partial_done": false,
+    "pending_sig": null,
+    "local_min_stop": 0.0,
+    "eod_reduced": true,
+    "last_switch": null,
+    "last_conv_exit": "2026-05-28T19:30:00.134054+00:00"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "date": "2026-06-30",
+  "daily_buy_notional": 0.0,
+  "QQQ": {
+    "direction": "flat",
+    "qty1": 0,
+    "entry_px1": 0.0,
+    "qty2": 0,
+    "entry_px2": 0.0,
+    "stop_px": 0.0,
+    "target_px": 0.0
+  }
+}

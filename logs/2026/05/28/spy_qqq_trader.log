@@ -1,0 +1,1708 @@
+2026-05-28 17:42:00  INFO      계좌 현황: equity=$99,143.56  cash=$99,143.56
+2026-05-28 17:42:01  INFO      ATR 스케일 초기 로드 중...
+2026-05-28 17:42:02  INFO      [QQQ] ATR scale=1.044  current=10.7012  avg30=10.2483  → stop=1.044%  partial=0.835%
+2026-05-28 17:42:02  INFO      =================================================================
+2026-05-28 17:42:02  INFO      SPY/QQQ Live Trader 시작
+2026-05-28 17:42:02  INFO      종목     : QQQ
+2026-05-28 17:42:02  INFO      Kelly    : 2.5% / 진입  (최대 20회 × 2.5% = 50%)
+2026-05-28 17:42:02  INFO      Stop     : -1.0% × ATR_scale  (EOD 타이트 추가 ÷2)
+2026-05-28 17:42:02  INFO      Partial  : +0.8% × ATR_scale  (EOD 타이트 추가 ÷2)
+2026-05-28 17:42:02  INFO        [QQQ] ATR scale=1.044  → stop=1.044%  partial=0.835%
+2026-05-28 17:42:02  INFO      Trail    : 고점 대비 30% 되돌림
+2026-05-28 17:42:02  INFO      신호소멸 : 합성 < -0.1
+2026-05-28 17:42:02  INFO      세션     : 09:45~15:55 ET
+2026-05-28 17:42:02  INFO      EOD 타이트: 14:55 ET 이후 기준 절반
+2026-05-28 17:42:02  INFO      EOD 청산  : 15:45 ET 50% 선제청산 → 15:55 ET 잔여 전량 청산
+2026-05-28 17:42:02  INFO      일일 한도: cash × 50% = $49,572  (당일 누적 $0)
+2026-05-28 17:42:02  INFO      계좌     : equity=$99,143.56  cash=$99,143.56
+2026-05-28 17:42:02  INFO      현재시각 : 2026-05-28 04:42 ET
+2026-05-28 17:42:02  INFO      =================================================================
+2026-05-28 17:42:02  INFO      스트림 구독 시작: QQQ
+2026-05-28 17:42:02  INFO      started data stream
+2026-05-28 17:42:02  INFO      starting data websocket connection
+2026-05-28 17:42:02  INFO      connecting to wss://stream.data.alpaca.markets/v2/sip
+2026-05-28 17:42:03  INFO      connected to wss://stream.data.alpaca.markets/v2/sip
+2026-05-28 17:42:03  INFO      subscribed to trades: ['QQQ'], quotes: ['QQQ'], corrections: ['QQQ'], cancelErrors: ['QQQ']
+2026-05-28 17:42:58  INFO      === 새 거래일: 2026-05-28 | 일일 한도 초기화 | 시작 equity=$99,143.56 ===
+2026-05-28 17:42:58  INFO      [QQQ] ATR scale=1.044  current=10.7012  avg30=10.2483  → stop=1.044%  partial=0.835%
+2026-05-28 17:43:02  INFO      [heartbeat] 04:43 ET  QQQ: flat(0주)  일일누적=$0/49,572
+2026-05-28 17:44:02  INFO      [heartbeat] 04:44 ET  QQQ: flat(0주)  일일누적=$0/49,572
+2026-05-28 17:45:03  INFO      [heartbeat] 04:45 ET  QQQ: flat(0주)  일일누적=$0/49,572
+2026-05-28 17:46:03  INFO      [heartbeat] 04:46 ET  QQQ: flat(0주)  일일누적=$0/49,572
+2026-05-28 17:47:03  INFO      [heartbeat] 04:47 ET  QQQ: flat(0주)  일일누적=$0/49,572
+2026-05-28 17:48:03  INFO      [heartbeat] 04:48 ET  QQQ: flat(0주)  일일누적=$0/49,572
+2026-05-28 17:48:10  INFO      상태 복구: 일일누적=$0
+2026-05-28 17:48:10  INFO        [QQQ] direction=flat  qty=0주
+2026-05-28 17:48:11  INFO      계좌 현황: equity=$99,143.56  cash=$99,143.56
+2026-05-28 17:48:11  INFO      ATR 스케일 초기 로드 중...
+2026-05-28 17:48:12  INFO      [QQQ] ATR scale=1.044  current=10.7012  avg30=10.2483  → stop=1.044%  partial=0.835%
+2026-05-28 17:48:12  INFO      =================================================================
+2026-05-28 17:48:12  INFO      SPY/QQQ Live Trader 시작
+2026-05-28 17:48:12  INFO      종목     : QQQ
+2026-05-28 17:48:12  INFO      Kelly    : 2.5% / 진입  (최대 20회 × 2.5% = 50%)
+2026-05-28 17:48:12  INFO      Stop     : -1.0% × ATR_scale  (EOD 타이트 추가 ÷2)
+2026-05-28 17:48:12  INFO      Partial  : +0.8% × ATR_scale  (EOD 타이트 추가 ÷2)
+2026-05-28 17:48:12  INFO        [QQQ] ATR scale=1.044  → stop=1.044%  partial=0.835%
+2026-05-28 17:48:12  INFO      Trail    : 고점 대비 30% 되돌림
+2026-05-28 17:48:12  INFO      신호소멸 : 합성 < -0.1
+2026-05-28 17:48:12  INFO      세션     : 09:45~15:55 ET
+2026-05-28 17:48:12  INFO      EOD 타이트: 14:55 ET 이후 기준 절반
+2026-05-28 17:48:12  INFO      EOD 청산  : 15:45 ET 50% 선제청산 → 15:55 ET 잔여 전량 청산
+2026-05-28 17:48:12  INFO      일일 한도: cash × 50% = $49,572  (당일 누적 $0)
+2026-05-28 17:48:12  INFO      계좌     : equity=$99,143.56  cash=$99,143.56
+2026-05-28 17:48:12  INFO      현재시각 : 2026-05-28 04:48 ET
+2026-05-28 17:48:12  INFO      =================================================================
+2026-05-28 17:48:12  INFO      스트림 구독 시작: QQQ
+2026-05-28 17:48:12  INFO      started data stream
+2026-05-28 17:48:12  INFO      starting data websocket connection
+2026-05-28 17:48:12  INFO      connecting to wss://stream.data.alpaca.markets/v2/sip
+2026-05-28 17:48:13  ERROR     error during websocket communication: connection limit exceeded
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 135, in _start_ws
+    await self._auth()
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 126, in _auth
+    raise ValueError(msg[0].get("msg", "auth failed"))
+ValueError: connection limit exceeded
+2026-05-28 17:48:13  INFO      starting data websocket connection
+2026-05-28 17:48:13  INFO      connecting to wss://stream.data.alpaca.markets/v2/sip
+2026-05-28 17:48:14  ERROR     error during websocket communication: connection limit exceeded
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 135, in _start_ws
+    await self._auth()
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 126, in _auth
+    raise ValueError(msg[0].get("msg", "auth failed"))
+ValueError: connection limit exceeded
+2026-05-28 17:48:14  INFO      starting data websocket connection
+2026-05-28 17:48:14  INFO      connecting to wss://stream.data.alpaca.markets/v2/sip
+2026-05-28 17:48:15  ERROR     error during websocket communication: connection limit exceeded
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 135, in _start_ws
+    await self._auth()
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 126, in _auth
+    raise ValueError(msg[0].get("msg", "auth failed"))
+ValueError: connection limit exceeded
+2026-05-28 17:48:15  INFO      starting data websocket connection
+2026-05-28 17:48:15  INFO      connecting to wss://stream.data.alpaca.markets/v2/sip
+2026-05-28 17:48:16  ERROR     error during websocket communication: connection limit exceeded
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 135, in _start_ws
+    await self._auth()
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 126, in _auth
+    raise ValueError(msg[0].get("msg", "auth failed"))
+ValueError: connection limit exceeded
+2026-05-28 17:48:16  INFO      starting data websocket connection
+2026-05-28 17:48:16  INFO      connecting to wss://stream.data.alpaca.markets/v2/sip
+2026-05-28 17:48:17  ERROR     error during websocket communication: connection limit exceeded
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 135, in _start_ws
+    await self._auth()
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 126, in _auth
+    raise ValueError(msg[0].get("msg", "auth failed"))
+ValueError: connection limit exceeded
+2026-05-28 17:48:17  INFO      starting data websocket connection
+2026-05-28 17:48:17  INFO      connecting to wss://stream.data.alpaca.markets/v2/sip
+2026-05-28 17:48:17  ERROR     error during websocket communication: connection limit exceeded
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 135, in _start_ws
+    await self._auth()
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 126, in _auth
+    raise ValueError(msg[0].get("msg", "auth failed"))
+ValueError: connection limit exceeded
+2026-05-28 17:48:17  INFO      starting data websocket connection
+2026-05-28 17:48:17  INFO      connecting to wss://stream.data.alpaca.markets/v2/sip
+2026-05-28 17:48:18  ERROR     error during websocket communication: connection limit exceeded
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 135, in _start_ws
+    await self._auth()
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 126, in _auth
+    raise ValueError(msg[0].get("msg", "auth failed"))
+ValueError: connection limit exceeded
+2026-05-28 17:48:18  INFO      starting data websocket connection
+2026-05-28 17:48:18  INFO      connecting to wss://stream.data.alpaca.markets/v2/sip
+2026-05-28 17:48:19  ERROR     error during websocket communication: connection limit exceeded
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 135, in _start_ws
+    await self._auth()
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 126, in _auth
+    raise ValueError(msg[0].get("msg", "auth failed"))
+ValueError: connection limit exceeded
+2026-05-28 17:48:19  INFO      starting data websocket connection
+2026-05-28 17:48:19  INFO      connecting to wss://stream.data.alpaca.markets/v2/sip
+2026-05-28 17:48:20  ERROR     error during websocket communication: connection limit exceeded
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 135, in _start_ws
+    await self._auth()
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 126, in _auth
+    raise ValueError(msg[0].get("msg", "auth failed"))
+ValueError: connection limit exceeded
+2026-05-28 17:48:20  INFO      starting data websocket connection
+2026-05-28 17:48:20  INFO      connecting to wss://stream.data.alpaca.markets/v2/sip
+2026-05-28 17:48:21  ERROR     error during websocket communication: connection limit exceeded
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 135, in _start_ws
+    await self._auth()
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 126, in _auth
+    raise ValueError(msg[0].get("msg", "auth failed"))
+ValueError: connection limit exceeded
+2026-05-28 17:48:21  INFO      starting data websocket connection
+2026-05-28 17:48:21  INFO      connecting to wss://stream.data.alpaca.markets/v2/sip
+2026-05-28 17:48:22  ERROR     error during websocket communication: connection limit exceeded
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 135, in _start_ws
+    await self._auth()
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 126, in _auth
+    raise ValueError(msg[0].get("msg", "auth failed"))
+ValueError: connection limit exceeded
+2026-05-28 17:48:22  INFO      starting data websocket connection
+2026-05-28 17:48:22  INFO      connecting to wss://stream.data.alpaca.markets/v2/sip
+2026-05-28 17:48:22  ERROR     error during websocket communication: connection limit exceeded
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 135, in _start_ws
+    await self._auth()
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 126, in _auth
+    raise ValueError(msg[0].get("msg", "auth failed"))
+ValueError: connection limit exceeded
+2026-05-28 17:48:22  INFO      starting data websocket connection
+2026-05-28 17:48:22  INFO      connecting to wss://stream.data.alpaca.markets/v2/sip
+2026-05-28 17:48:23  ERROR     error during websocket communication: connection limit exceeded
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 135, in _start_ws
+    await self._auth()
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 126, in _auth
+    raise ValueError(msg[0].get("msg", "auth failed"))
+ValueError: connection limit exceeded
+2026-05-28 17:48:23  INFO      starting data websocket connection
+2026-05-28 17:48:23  INFO      connecting to wss://stream.data.alpaca.markets/v2/sip
+2026-05-28 17:48:24  ERROR     error during websocket communication: connection limit exceeded
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 135, in _start_ws
+    await self._auth()
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 126, in _auth
+    raise ValueError(msg[0].get("msg", "auth failed"))
+ValueError: connection limit exceeded
+2026-05-28 17:48:24  INFO      starting data websocket connection
+2026-05-28 17:48:24  INFO      connecting to wss://stream.data.alpaca.markets/v2/sip
+2026-05-28 17:48:25  ERROR     error during websocket communication: connection limit exceeded
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 135, in _start_ws
+    await self._auth()
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 126, in _auth
+    raise ValueError(msg[0].get("msg", "auth failed"))
+ValueError: connection limit exceeded
+2026-05-28 17:48:25  INFO      starting data websocket connection
+2026-05-28 17:48:25  INFO      connecting to wss://stream.data.alpaca.markets/v2/sip
+2026-05-28 17:48:26  ERROR     error during websocket communication: connection limit exceeded
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 135, in _start_ws
+    await self._auth()
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 126, in _auth
+    raise ValueError(msg[0].get("msg", "auth failed"))
+ValueError: connection limit exceeded
+2026-05-28 17:48:26  INFO      starting data websocket connection
+2026-05-28 17:48:26  INFO      connecting to wss://stream.data.alpaca.markets/v2/sip
+2026-05-28 17:48:27  ERROR     error during websocket communication: connection limit exceeded
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 135, in _start_ws
+    await self._auth()
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 126, in _auth
+    raise ValueError(msg[0].get("msg", "auth failed"))
+ValueError: connection limit exceeded
+2026-05-28 17:48:27  INFO      starting data websocket connection
+2026-05-28 17:48:27  INFO      connecting to wss://stream.data.alpaca.markets/v2/sip
+2026-05-28 17:48:28  ERROR     error during websocket communication: connection limit exceeded
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 135, in _start_ws
+    await self._auth()
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 126, in _auth
+    raise ValueError(msg[0].get("msg", "auth failed"))
+ValueError: connection limit exceeded
+2026-05-28 17:48:28  INFO      starting data websocket connection
+2026-05-28 17:48:28  INFO      connecting to wss://stream.data.alpaca.markets/v2/sip
+2026-05-28 17:48:29  ERROR     error during websocket communication: connection limit exceeded
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 135, in _start_ws
+    await self._auth()
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 126, in _auth
+    raise ValueError(msg[0].get("msg", "auth failed"))
+ValueError: connection limit exceeded
+2026-05-28 17:48:29  INFO      starting data websocket connection
+2026-05-28 17:48:29  INFO      connecting to wss://stream.data.alpaca.markets/v2/sip
+2026-05-28 17:48:30  ERROR     error during websocket communication: connection limit exceeded
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 135, in _start_ws
+    await self._auth()
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 126, in _auth
+    raise ValueError(msg[0].get("msg", "auth failed"))
+ValueError: connection limit exceeded
+2026-05-28 17:48:30  INFO      starting data websocket connection
+2026-05-28 17:48:30  INFO      connecting to wss://stream.data.alpaca.markets/v2/sip
+2026-05-28 17:48:31  ERROR     error during websocket communication: connection limit exceeded
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 135, in _start_ws
+    await self._auth()
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 126, in _auth
+    raise ValueError(msg[0].get("msg", "auth failed"))
+ValueError: connection limit exceeded
+2026-05-28 17:48:31  INFO      starting data websocket connection
+2026-05-28 17:48:31  INFO      connecting to wss://stream.data.alpaca.markets/v2/sip
+2026-05-28 17:48:32  ERROR     error during websocket communication: connection limit exceeded
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 135, in _start_ws
+    await self._auth()
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 126, in _auth
+    raise ValueError(msg[0].get("msg", "auth failed"))
+ValueError: connection limit exceeded
+2026-05-28 17:48:32  INFO      starting data websocket connection
+2026-05-28 17:48:32  INFO      connecting to wss://stream.data.alpaca.markets/v2/sip
+2026-05-28 17:48:33  ERROR     error during websocket communication: connection limit exceeded
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 135, in _start_ws
+    await self._auth()
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 126, in _auth
+    raise ValueError(msg[0].get("msg", "auth failed"))
+ValueError: connection limit exceeded
+2026-05-28 17:48:33  INFO      starting data websocket connection
+2026-05-28 17:48:33  INFO      connecting to wss://stream.data.alpaca.markets/v2/sip
+2026-05-28 17:48:33  ERROR     error during websocket communication: connection limit exceeded
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 135, in _start_ws
+    await self._auth()
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 126, in _auth
+    raise ValueError(msg[0].get("msg", "auth failed"))
+ValueError: connection limit exceeded
+2026-05-28 17:48:33  INFO      starting data websocket connection
+2026-05-28 17:48:33  INFO      connecting to wss://stream.data.alpaca.markets/v2/sip
+2026-05-28 17:48:34  ERROR     error during websocket communication: connection limit exceeded
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 135, in _start_ws
+    await self._auth()
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 126, in _auth
+    raise ValueError(msg[0].get("msg", "auth failed"))
+ValueError: connection limit exceeded
+2026-05-28 17:48:34  INFO      starting data websocket connection
+2026-05-28 17:48:34  INFO      connecting to wss://stream.data.alpaca.markets/v2/sip
+2026-05-28 17:48:35  ERROR     error during websocket communication: connection limit exceeded
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 135, in _start_ws
+    await self._auth()
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 126, in _auth
+    raise ValueError(msg[0].get("msg", "auth failed"))
+ValueError: connection limit exceeded
+2026-05-28 17:48:35  INFO      starting data websocket connection
+2026-05-28 17:48:35  INFO      connecting to wss://stream.data.alpaca.markets/v2/sip
+2026-05-28 17:48:36  ERROR     error during websocket communication: connection limit exceeded
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 135, in _start_ws
+    await self._auth()
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 126, in _auth
+    raise ValueError(msg[0].get("msg", "auth failed"))
+ValueError: connection limit exceeded
+2026-05-28 17:48:36  INFO      starting data websocket connection
+2026-05-28 17:48:36  INFO      connecting to wss://stream.data.alpaca.markets/v2/sip
+2026-05-28 17:48:37  ERROR     error during websocket communication: connection limit exceeded
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 135, in _start_ws
+    await self._auth()
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 126, in _auth
+    raise ValueError(msg[0].get("msg", "auth failed"))
+ValueError: connection limit exceeded
+2026-05-28 17:48:37  INFO      starting data websocket connection
+2026-05-28 17:48:37  INFO      connecting to wss://stream.data.alpaca.markets/v2/sip
+2026-05-28 17:48:37  ERROR     error during websocket communication: connection limit exceeded
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 135, in _start_ws
+    await self._auth()
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 126, in _auth
+    raise ValueError(msg[0].get("msg", "auth failed"))
+ValueError: connection limit exceeded
+2026-05-28 17:48:37  INFO      starting data websocket connection
+2026-05-28 17:48:37  INFO      connecting to wss://stream.data.alpaca.markets/v2/sip
+2026-05-28 17:48:38  ERROR     error during websocket communication: connection limit exceeded
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 135, in _start_ws
+    await self._auth()
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 126, in _auth
+    raise ValueError(msg[0].get("msg", "auth failed"))
+ValueError: connection limit exceeded
+2026-05-28 17:48:38  INFO      starting data websocket connection
+2026-05-28 17:48:38  INFO      connecting to wss://stream.data.alpaca.markets/v2/sip
+2026-05-28 17:48:39  ERROR     error during websocket communication: connection limit exceeded
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 135, in _start_ws
+    await self._auth()
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 126, in _auth
+    raise ValueError(msg[0].get("msg", "auth failed"))
+ValueError: connection limit exceeded
+2026-05-28 17:48:39  INFO      starting data websocket connection
+2026-05-28 17:48:39  INFO      connecting to wss://stream.data.alpaca.markets/v2/sip
+2026-05-28 17:48:40  ERROR     error during websocket communication: connection limit exceeded
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 135, in _start_ws
+    await self._auth()
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 126, in _auth
+    raise ValueError(msg[0].get("msg", "auth failed"))
+ValueError: connection limit exceeded
+2026-05-28 17:48:40  INFO      starting data websocket connection
+2026-05-28 17:48:40  INFO      connecting to wss://stream.data.alpaca.markets/v2/sip
+2026-05-28 17:48:41  ERROR     error during websocket communication: connection limit exceeded
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 135, in _start_ws
+    await self._auth()
+  File "/opt/miniconda3/envs/quant-env/lib/python3.12/site-packages/alpaca/data/live/websocket.py", line 126, in _auth
+    raise ValueError(msg[0].get("msg", "auth failed"))
+ValueError: connection limit exceeded
+2026-05-28 17:48:41  INFO      starting data websocket connection
+2026-05-28 17:48:41  INFO      connecting to wss://stream.data.alpaca.markets/v2/sip
+2026-05-28 17:48:41  INFO      종료 신호 수신 — 안전 종료 중...
+2026-05-28 17:48:41  INFO      상태 저장 완료
+2026-05-28 17:49:03  INFO      [heartbeat] 04:49 ET  QQQ: flat(0주)  일일누적=$0/49,572
+2026-05-28 17:55:51  INFO      상태 복구: 일일누적=$0
+2026-05-28 17:55:51  INFO        [QQQ] direction=flat  qty=0주
+2026-05-28 17:55:53  INFO      계좌 현황: equity=$99,143.56  cash=$99,143.56
+2026-05-28 17:55:54  INFO      ATR 스케일 초기 로드 중...
+2026-05-28 17:55:55  INFO      [QQQ] ATR scale=1.044  current=10.7012  avg30=10.2483  → stop=1.044%  partial=0.835%
+2026-05-28 17:55:55  INFO      =================================================================
+2026-05-28 17:55:55  INFO      SPY/QQQ Live Trader 시작
+2026-05-28 17:55:55  INFO      종목     : QQQ
+2026-05-28 17:55:55  INFO      Kelly    : 2.5% / 진입  (최대 20회 × 2.5% = 50%)
+2026-05-28 17:55:55  INFO      Stop     : -1.0% × ATR_scale  (EOD 타이트 추가 ÷2)
+2026-05-28 17:55:55  INFO      Partial  : +0.8% × ATR_scale  (EOD 타이트 추가 ÷2)
+2026-05-28 17:55:55  INFO        [QQQ] ATR scale=1.044  → stop=1.044%  partial=0.835%
+2026-05-28 17:55:55  INFO      Trail    : 고점 대비 30% 되돌림
+2026-05-28 17:55:55  INFO      신호소멸 : 합성 < -0.1
+2026-05-28 17:55:55  INFO      세션     : 09:45~15:55 ET
+2026-05-28 17:55:55  INFO      EOD 타이트: 14:55 ET 이후 기준 절반
+2026-05-28 17:55:55  INFO      EOD 청산  : 15:45 ET 50% 선제청산 → 15:55 ET 잔여 전량 청산
+2026-05-28 17:55:55  INFO      일일 한도: cash × 50% = $49,572  (당일 누적 $0)
+2026-05-28 17:55:55  INFO      계좌     : equity=$99,143.56  cash=$99,143.56
+2026-05-28 17:55:55  INFO      현재시각 : 2026-05-28 04:55 ET
+2026-05-28 17:55:55  INFO      =================================================================
+2026-05-28 17:55:55  INFO      스트림 구독 시작: QQQ
+2026-05-28 17:55:55  INFO      started data stream
+2026-05-28 17:55:55  INFO      starting data websocket connection
+2026-05-28 17:55:55  INFO      connecting to wss://stream.data.alpaca.markets/v2/sip
+2026-05-28 17:55:56  INFO      connected to wss://stream.data.alpaca.markets/v2/sip
+2026-05-28 17:55:57  INFO      subscribed to trades: ['QQQ'], quotes: ['QQQ'], corrections: ['QQQ'], cancelErrors: ['QQQ']
+2026-05-28 17:55:59  INFO      === 새 거래일: 2026-05-28 | 일일 한도 초기화 | 시작 equity=$99,143.56 ===
+2026-05-28 17:55:59  INFO      [QQQ] ATR scale=1.044  current=10.7012  avg30=10.2483  → stop=1.044%  partial=0.835%
+2026-05-28 17:56:55  INFO      [heartbeat] 04:56 ET  QQQ: flat(0주)  일일누적=$0/49,572
+2026-05-28 17:57:32  INFO      종료 신호 수신 — 안전 종료 중...
+2026-05-28 17:57:32  INFO      상태 저장 완료
+2026-05-28 22:28:28  INFO      상태 복구: 일일누적=$0
+2026-05-28 22:28:28  INFO        [QQQ] direction=flat  qty=0주
+2026-05-28 22:28:29  INFO      계좌 현황: equity=$99,143.56  cash=$99,143.56
+2026-05-28 22:28:30  INFO      ATR 스케일 초기 로드 중...
+2026-05-28 22:28:30  INFO      [QQQ] ATR scale=1.044  current=10.7012  avg30=10.2483  → stop=1.044%  partial=0.835%
+2026-05-28 22:28:31  INFO      =================================================================
+2026-05-28 22:28:31  INFO      SPY/QQQ Live Trader 시작
+2026-05-28 22:28:31  INFO      종목     : QQQ
+2026-05-28 22:28:31  INFO      Kelly    : 2.5% / 진입  (최대 20회 × 2.5% = 50%)
+2026-05-28 22:28:31  INFO      Stop     : -1.0% × ATR_scale  (EOD 타이트 추가 ÷2)
+2026-05-28 22:28:31  INFO      Partial  : +0.8% × ATR_scale  (EOD 타이트 추가 ÷2)
+2026-05-28 22:28:31  INFO        [QQQ] ATR scale=1.044  → stop=1.044%  partial=0.835%
+2026-05-28 22:28:31  INFO      Trail    : 고점 대비 30% 되돌림
+2026-05-28 22:28:31  INFO      신호소멸 : 합성 < -0.1
+2026-05-28 22:28:31  INFO      세션     : 09:45~15:55 ET
+2026-05-28 22:28:31  INFO      EOD 타이트: 14:55 ET 이후 기준 절반
+2026-05-28 22:28:31  INFO      EOD 청산  : 15:45 ET 50% 선제청산 → 15:55 ET 잔여 전량 청산
+2026-05-28 22:28:31  INFO      일일 한도: cash × 50% = $49,572  (당일 누적 $0)
+2026-05-28 22:28:31  INFO      계좌     : equity=$99,143.56  cash=$99,143.56
+2026-05-28 22:28:31  INFO      현재시각 : 2026-05-28 09:28 ET
+2026-05-28 22:28:31  INFO      =================================================================
+2026-05-28 22:28:31  INFO      스트림 구독 시작: QQQ
+2026-05-28 22:28:31  INFO      started data stream
+2026-05-28 22:28:31  INFO      starting data websocket connection
+2026-05-28 22:28:31  INFO      connecting to wss://stream.data.alpaca.markets/v2/sip
+2026-05-28 22:28:32  INFO      connected to wss://stream.data.alpaca.markets/v2/sip
+2026-05-28 22:28:32  INFO      subscribed to trades: ['QQQ'], quotes: ['QQQ'], corrections: ['QQQ'], cancelErrors: ['QQQ']
+2026-05-28 22:29:31  INFO      [heartbeat] 09:29 ET  QQQ: flat(0주)  일일누적=$0/49,572
+2026-05-28 22:30:31  INFO      [heartbeat] 09:30 ET  QQQ: flat(0주)  일일누적=$0/49,572
+2026-05-28 22:31:32  INFO      [heartbeat] 09:31 ET  QQQ: flat(0주)  일일누적=$0/49,572
+2026-05-28 22:32:32  INFO      [heartbeat] 09:32 ET  QQQ: flat(0주)  일일누적=$0/49,572
+2026-05-28 22:33:32  INFO      [heartbeat] 09:33 ET  QQQ: flat(0주)  일일누적=$0/49,572
+2026-05-28 22:34:32  INFO      [heartbeat] 09:34 ET  QQQ: flat(0주)  일일누적=$0/49,572
+2026-05-28 22:35:32  INFO      [heartbeat] 09:35 ET  QQQ: flat(0주)  일일누적=$0/49,572
+2026-05-28 22:36:33  INFO      [heartbeat] 09:36 ET  QQQ: flat(0주)  일일누적=$0/49,572
+2026-05-28 22:37:33  INFO      [heartbeat] 09:37 ET  QQQ: flat(0주)  일일누적=$0/49,572
+2026-05-28 22:38:33  INFO      [heartbeat] 09:38 ET  QQQ: flat(0주)  일일누적=$0/49,572
+2026-05-28 22:39:33  INFO      [heartbeat] 09:39 ET  QQQ: flat(0주)  일일누적=$0/49,572
+2026-05-28 22:40:34  INFO      [heartbeat] 09:40 ET  QQQ: flat(0주)  일일누적=$0/49,572
+2026-05-28 22:41:34  INFO      [heartbeat] 09:41 ET  QQQ: flat(0주)  일일누적=$0/49,572
+2026-05-28 22:42:34  INFO      [heartbeat] 09:42 ET  QQQ: flat(0주)  일일누적=$0/49,572
+2026-05-28 22:43:34  INFO      [heartbeat] 09:43 ET  QQQ: flat(0주)  일일누적=$0/49,572
+2026-05-28 22:44:34  INFO      [heartbeat] 09:44 ET  QQQ: flat(0주)  일일누적=$0/49,572
+2026-05-28 22:45:00  INFO      [QQQ] bar 09:45 ET  signal=-0.1390  position=flat  atr_scale=1.044
+2026-05-28 22:45:35  INFO      [heartbeat] 09:45 ET  QQQ: flat(0주)  일일누적=$0/49,572
+2026-05-28 22:46:00  INFO      [QQQ] bar 09:46 ET  signal=-0.2944  position=flat  atr_scale=1.044
+2026-05-28 22:46:35  INFO      [heartbeat] 09:46 ET  QQQ: flat(0주)  일일누적=$0/49,572
+2026-05-28 22:47:00  INFO      [QQQ] bar 09:47 ET  signal=+0.1387  position=flat  atr_scale=1.044
+2026-05-28 22:47:35  INFO      [heartbeat] 09:47 ET  QQQ: flat(0주)  일일누적=$0/49,572
+2026-05-28 22:48:00  INFO      [QQQ] bar 09:48 ET  signal=-0.0614  position=flat  atr_scale=1.044
+2026-05-28 22:48:35  INFO      [heartbeat] 09:48 ET  QQQ: flat(0주)  일일누적=$0/49,572
+2026-05-28 22:49:00  INFO      [QQQ] bar 09:49 ET  signal=-0.1108  position=flat  atr_scale=1.044
+2026-05-28 22:49:36  INFO      [heartbeat] 09:49 ET  QQQ: flat(0주)  일일누적=$0/49,572
+2026-05-28 22:50:00  INFO      [QQQ] bar 09:50 ET  signal=+0.1181  position=flat  atr_scale=1.044
+2026-05-28 22:50:36  INFO      [heartbeat] 09:50 ET  QQQ: flat(0주)  일일누적=$0/49,572
+2026-05-28 22:51:00  INFO      [QQQ] bar 09:51 ET  signal=-0.1044  position=flat  atr_scale=1.044
+2026-05-28 22:51:36  INFO      [heartbeat] 09:51 ET  QQQ: flat(0주)  일일누적=$0/49,572
+2026-05-28 22:52:00  INFO      [QQQ] bar 09:52 ET  signal=-0.0517  position=flat  atr_scale=1.044
+2026-05-28 22:52:36  INFO      [heartbeat] 09:52 ET  QQQ: flat(0주)  일일누적=$0/49,572
+2026-05-28 22:53:00  INFO      [QQQ] bar 09:53 ET  signal=-0.1108  position=flat  atr_scale=1.044
+2026-05-28 22:53:37  INFO      [heartbeat] 09:53 ET  QQQ: flat(0주)  일일누적=$0/49,572
+2026-05-28 22:54:00  INFO      [QQQ] bar 09:54 ET  signal=-0.3261  position=flat  atr_scale=1.044
+2026-05-28 22:54:37  INFO      [heartbeat] 09:54 ET  QQQ: flat(0주)  일일누적=$0/49,572
+2026-05-28 22:55:00  INFO      [QQQ] bar 09:55 ET  signal=-0.0872  position=flat  atr_scale=1.044
+2026-05-28 22:55:37  INFO      [heartbeat] 09:55 ET  QQQ: flat(0주)  일일누적=$0/49,572
+2026-05-28 22:56:00  INFO      [QQQ] bar 09:56 ET  signal=+0.0093  position=flat  atr_scale=1.044
+2026-05-28 22:56:37  INFO      [heartbeat] 09:56 ET  QQQ: flat(0주)  일일누적=$0/49,572
+2026-05-28 22:57:00  INFO      [QQQ] bar 09:57 ET  signal=-0.0166  position=flat  atr_scale=1.044
+2026-05-28 22:57:38  INFO      [heartbeat] 09:57 ET  QQQ: flat(0주)  일일누적=$0/49,572
+2026-05-28 22:58:00  INFO      [QQQ] bar 09:58 ET  signal=-0.0944  position=flat  atr_scale=1.044
+2026-05-28 22:58:38  INFO      [heartbeat] 09:58 ET  QQQ: flat(0주)  일일누적=$0/49,572
+2026-05-28 22:59:00  INFO      [QQQ] bar 09:59 ET  signal=+0.2354  position=flat  atr_scale=1.044
+2026-05-28 22:59:00  INFO        [QQQ] 진입 예약: signal=+0.2354  atr_scale=1.044 → 다음 bar open 진입
+2026-05-28 22:59:38  INFO      [heartbeat] 09:59 ET  QQQ: flat(0주)  일일누적=$0/49,572
+2026-05-28 23:00:00  INFO      [QQQ] bar 10:00 ET  signal=+0.0349  position=flat  atr_scale=1.044
+2026-05-28 23:00:00  INFO        [QQQ] 진입 계산: equity=$99,143.56  mid=$728.15  notional=$2478.59  qty_계산=3주  cash=$99,143.56  한도=$49,572
+2026-05-28 23:00:01  INFO      BUY 주문 제출: QQQ 3주  order_id=8376588a-4e4e-477d-a513-5efdda7701f5
+2026-05-28 23:00:03  INFO        [QQQ] ✅ ENTER: 3주  mid=$728.15 → 체결$728.07  슬리피지=-1.14bp  signal=+0.2354  로컬저점손절=N/A  일일누적=$2,184/49,572
+2026-05-28 23:00:38  INFO      [heartbeat] 10:00 ET  QQQ: long(3주)  일일누적=$2,184/48,480
+2026-05-28 23:01:00  INFO      [QQQ] bar 10:01 ET  signal=+0.0410  position=long  atr_scale=1.044
+2026-05-28 23:01:00  INFO        [QQQ] 3주 @ $728.07  현재 $728.65  PnL=+0.081%  stop=1.044%  partial=0.835%
+2026-05-28 23:01:38  INFO      [heartbeat] 10:01 ET  QQQ: long(3주)  일일누적=$2,184/48,480
+2026-05-28 23:02:00  INFO      [QQQ] bar 10:02 ET  signal=+0.0236  position=long  atr_scale=1.044
+2026-05-28 23:02:00  INFO        [QQQ] 3주 @ $728.07  현재 $727.90  PnL=-0.023%  stop=1.044%  partial=0.835%
+2026-05-28 23:02:39  INFO      [heartbeat] 10:02 ET  QQQ: long(3주)  일일누적=$2,184/48,480
+2026-05-28 23:03:00  INFO      [QQQ] bar 10:03 ET  signal=+0.1551  position=long  atr_scale=1.044
+2026-05-28 23:03:00  INFO        [QQQ] 3주 @ $728.07  현재 $727.93  PnL=-0.018%  stop=1.044%  partial=0.835%
+2026-05-28 23:03:39  INFO      [heartbeat] 10:03 ET  QQQ: long(3주)  일일누적=$2,184/48,480
+2026-05-28 23:04:00  INFO      [QQQ] bar 10:04 ET  signal=-0.1705  position=long  atr_scale=1.044
+2026-05-28 23:04:00  INFO        [QQQ] 3주 @ $728.07  현재 $727.68  PnL=-0.053%  stop=1.044%  partial=0.835%
+2026-05-28 23:04:00  INFO      포지션 청산 완료: QQQ
+2026-05-28 23:04:02  INFO        [QQQ] 🔴 신호소멸: 3주 @ mid$727.68 → 실체결$727.56  PnL=$-1.51  슬리피지=-1.60bp  portfolio=$99,142.05
+2026-05-28 23:04:39  INFO      [heartbeat] 10:04 ET  QQQ: flat(0주)  일일누적=$2,184/49,571
+2026-05-28 23:05:00  INFO      [QQQ] bar 10:05 ET  signal=-0.1160  position=flat  atr_scale=1.044
+2026-05-28 23:05:39  INFO      [heartbeat] 10:05 ET  QQQ: flat(0주)  일일누적=$2,184/49,571
+2026-05-28 23:06:00  INFO      [QQQ] bar 10:06 ET  signal=-0.0654  position=flat  atr_scale=1.044
+2026-05-28 23:06:40  INFO      [heartbeat] 10:06 ET  QQQ: flat(0주)  일일누적=$2,184/49,571
+2026-05-28 23:07:00  INFO      [QQQ] bar 10:07 ET  signal=-0.1771  position=flat  atr_scale=1.044
+2026-05-28 23:07:40  INFO      [heartbeat] 10:07 ET  QQQ: flat(0주)  일일누적=$2,184/49,571
+2026-05-28 23:08:00  INFO      [QQQ] bar 10:08 ET  signal=-0.1730  position=flat  atr_scale=1.044
+2026-05-28 23:08:40  INFO      [heartbeat] 10:08 ET  QQQ: flat(0주)  일일누적=$2,184/49,571
+2026-05-28 23:09:00  INFO      [QQQ] bar 10:09 ET  signal=+0.0865  position=flat  atr_scale=1.044
+2026-05-28 23:09:40  INFO      [heartbeat] 10:09 ET  QQQ: flat(0주)  일일누적=$2,184/49,571
+2026-05-28 23:10:00  INFO      [QQQ] bar 10:10 ET  signal=-0.0588  position=flat  atr_scale=1.044
+2026-05-28 23:10:40  INFO      [heartbeat] 10:10 ET  QQQ: flat(0주)  일일누적=$2,184/49,571
+2026-05-28 23:11:00  INFO      [QQQ] bar 10:11 ET  signal=+0.3140  position=flat  atr_scale=1.044
+2026-05-28 23:11:00  INFO        [QQQ] 진입 예약: signal=+0.3140  atr_scale=1.044 → 다음 bar open 진입
+2026-05-28 23:11:41  INFO      [heartbeat] 10:11 ET  QQQ: flat(0주)  일일누적=$2,184/49,571
+2026-05-28 23:12:00  INFO      [QQQ] bar 10:12 ET  signal=+0.1684  position=flat  atr_scale=1.044
+2026-05-28 23:12:00  INFO        [QQQ] 진입 계산: equity=$99,142.05  mid=$729.13  notional=$2478.55  qty_계산=3주  cash=$99,142.05  한도=$49,571
+2026-05-28 23:12:00  INFO      BUY 주문 제출: QQQ 3주  order_id=4844250d-467a-4d41-89d7-c52313721c03
+2026-05-28 23:12:03  WARNING     [QQQ] API 지연: 브로커=2주 < 주문=3주 → 3주 기준 유지
+2026-05-28 23:12:03  INFO        [QQQ] ✅ ENTER: 3주  mid=$729.13 → 체결$729.09  슬리피지=-0.55bp  signal=+0.3140  로컬저점손절=N/A  일일누적=$4,372/49,571
+2026-05-28 23:12:41  INFO      [heartbeat] 10:12 ET  QQQ: long(3주)  일일누적=$4,372/48,477
+2026-05-28 23:13:01  INFO      [QQQ] bar 10:13 ET  signal=+0.1256  position=long  atr_scale=1.044
+2026-05-28 23:13:01  INFO        [QQQ] 3주 @ $729.09  현재 $731.65  PnL=+0.351%  stop=1.044%  partial=0.835%
+2026-05-28 23:13:41  INFO      [heartbeat] 10:13 ET  QQQ: long(3주)  일일누적=$4,372/48,477
+2026-05-28 23:14:00  INFO      [QQQ] bar 10:14 ET  signal=+0.1525  position=long  atr_scale=1.044
+2026-05-28 23:14:00  INFO        [QQQ] 3주 @ $729.09  현재 $732.56  PnL=+0.475%  stop=1.044%  partial=0.835%
+2026-05-28 23:14:41  INFO      [heartbeat] 10:14 ET  QQQ: long(3주)  일일누적=$4,372/48,477
+2026-05-28 23:15:00  INFO      [QQQ] bar 10:15 ET  signal=+0.0546  position=long  atr_scale=1.044
+2026-05-28 23:15:00  INFO        [QQQ] 3주 @ $729.09  현재 $732.24  PnL=+0.431%  stop=1.044%  partial=0.835%
+2026-05-28 23:15:42  INFO      [heartbeat] 10:15 ET  QQQ: long(3주)  일일누적=$4,372/48,477
+2026-05-28 23:16:00  INFO      [QQQ] bar 10:16 ET  signal=+0.1638  position=long  atr_scale=1.044
+2026-05-28 23:16:00  INFO        [QQQ] 3주 @ $729.09  현재 $731.40  PnL=+0.317%  stop=1.044%  partial=0.835%
+2026-05-28 23:16:42  INFO      [heartbeat] 10:16 ET  QQQ: long(3주)  일일누적=$4,372/48,477
+2026-05-28 23:17:00  INFO      [QQQ] bar 10:17 ET  signal=+0.0306  position=long  atr_scale=1.044
+2026-05-28 23:17:00  INFO        [QQQ] 3주 @ $729.09  현재 $732.09  PnL=+0.411%  stop=1.044%  partial=0.835%
+2026-05-28 23:17:42  INFO      [heartbeat] 10:17 ET  QQQ: long(3주)  일일누적=$4,372/48,477
+2026-05-28 23:18:00  INFO      [QQQ] bar 10:18 ET  signal=+0.0317  position=long  atr_scale=1.044
+2026-05-28 23:18:00  INFO        [QQQ] 3주 @ $729.09  현재 $731.63  PnL=+0.348%  stop=1.044%  partial=0.835%
+2026-05-28 23:18:42  INFO      [heartbeat] 10:18 ET  QQQ: long(3주)  일일누적=$4,372/48,477
+2026-05-28 23:19:00  INFO      [QQQ] bar 10:19 ET  signal=-0.3048  position=long  atr_scale=1.044
+2026-05-28 23:19:00  INFO        [QQQ] 3주 @ $729.09  현재 $732.25  PnL=+0.433%  stop=1.044%  partial=0.835%
+2026-05-28 23:19:00  INFO      포지션 청산 완료: QQQ
+2026-05-28 23:19:04  INFO        [QQQ] ✅ 신호소멸: 3주 @ mid$732.25 → 실체결$732.18  PnL=$+9.27  슬리피지=-0.89bp  portfolio=$99,151.31
+2026-05-28 23:19:43  INFO      [heartbeat] 10:19 ET  QQQ: flat(0주)  일일누적=$4,372/49,576
+2026-05-28 23:20:00  INFO      [QQQ] bar 10:20 ET  signal=-0.0285  position=flat  atr_scale=1.044
+2026-05-28 23:20:43  INFO      [heartbeat] 10:20 ET  QQQ: flat(0주)  일일누적=$4,372/49,576
+2026-05-28 23:21:00  INFO      [QQQ] bar 10:21 ET  signal=-0.1254  position=flat  atr_scale=1.044
+2026-05-28 23:21:43  INFO      [heartbeat] 10:21 ET  QQQ: flat(0주)  일일누적=$4,372/49,576
+2026-05-28 23:22:00  INFO      [QQQ] bar 10:22 ET  signal=+0.0433  position=flat  atr_scale=1.044
+2026-05-28 23:22:43  INFO      [heartbeat] 10:22 ET  QQQ: flat(0주)  일일누적=$4,372/49,576
+2026-05-28 23:23:00  INFO      [QQQ] bar 10:23 ET  signal=-0.1366  position=flat  atr_scale=1.044
+2026-05-28 23:23:43  INFO      [heartbeat] 10:23 ET  QQQ: flat(0주)  일일누적=$4,372/49,576
+2026-05-28 23:24:00  INFO      [QQQ] bar 10:24 ET  signal=-0.0766  position=flat  atr_scale=1.044
+2026-05-28 23:24:44  INFO      [heartbeat] 10:24 ET  QQQ: flat(0주)  일일누적=$4,372/49,576
+2026-05-28 23:25:00  INFO      [QQQ] bar 10:25 ET  signal=+0.1727  position=flat  atr_scale=1.044
+2026-05-28 23:25:44  INFO      [heartbeat] 10:25 ET  QQQ: flat(0주)  일일누적=$4,372/49,576
+2026-05-28 23:26:00  INFO      [QQQ] bar 10:26 ET  signal=+0.0743  position=flat  atr_scale=1.044
+2026-05-28 23:26:44  INFO      [heartbeat] 10:26 ET  QQQ: flat(0주)  일일누적=$4,372/49,576
+2026-05-28 23:27:00  INFO      [QQQ] bar 10:27 ET  signal=-0.0059  position=flat  atr_scale=1.044
+2026-05-28 23:27:44  INFO      [heartbeat] 10:27 ET  QQQ: flat(0주)  일일누적=$4,372/49,576
+2026-05-28 23:28:00  INFO      [QQQ] bar 10:28 ET  signal=+0.0433  position=flat  atr_scale=1.044
+2026-05-28 23:28:45  INFO      [heartbeat] 10:28 ET  QQQ: flat(0주)  일일누적=$4,372/49,576
+2026-05-28 23:29:00  INFO      [QQQ] bar 10:29 ET  signal=+0.0856  position=flat  atr_scale=1.044
+2026-05-28 23:29:45  INFO      [heartbeat] 10:29 ET  QQQ: flat(0주)  일일누적=$4,372/49,576
+2026-05-28 23:30:00  INFO      [QQQ] bar 10:30 ET  signal=+0.0262  position=flat  atr_scale=1.044
+2026-05-28 23:30:46  INFO      [heartbeat] 10:30 ET  QQQ: flat(0주)  일일누적=$4,372/49,576
+2026-05-28 23:31:00  INFO      [QQQ] bar 10:31 ET  signal=-0.1847  position=flat  atr_scale=1.044
+2026-05-28 23:31:46  INFO      [heartbeat] 10:31 ET  QQQ: flat(0주)  일일누적=$4,372/49,576
+2026-05-28 23:32:00  INFO      [QQQ] bar 10:32 ET  signal=+0.0856  position=flat  atr_scale=1.044
+2026-05-28 23:32:46  INFO      [heartbeat] 10:32 ET  QQQ: flat(0주)  일일누적=$4,372/49,576
+2026-05-28 23:33:00  INFO      [QQQ] bar 10:33 ET  signal=-0.2800  position=flat  atr_scale=1.044
+2026-05-28 23:33:46  INFO      [heartbeat] 10:33 ET  QQQ: flat(0주)  일일누적=$4,372/49,576
+2026-05-28 23:34:00  INFO      [QQQ] bar 10:34 ET  signal=-0.1222  position=flat  atr_scale=1.044
+2026-05-28 23:34:47  INFO      [heartbeat] 10:34 ET  QQQ: flat(0주)  일일누적=$4,372/49,576
+2026-05-28 23:35:00  INFO      [QQQ] bar 10:35 ET  signal=-0.1140  position=flat  atr_scale=1.044
+2026-05-28 23:35:47  INFO      [heartbeat] 10:35 ET  QQQ: flat(0주)  일일누적=$4,372/49,576
+2026-05-28 23:36:00  INFO      [QQQ] bar 10:36 ET  signal=+0.0878  position=flat  atr_scale=1.044
+2026-05-28 23:36:47  INFO      [heartbeat] 10:36 ET  QQQ: flat(0주)  일일누적=$4,372/49,576
+2026-05-28 23:37:00  INFO      [QQQ] bar 10:37 ET  signal=+0.1055  position=flat  atr_scale=1.044
+2026-05-28 23:37:47  INFO      [heartbeat] 10:37 ET  QQQ: flat(0주)  일일누적=$4,372/49,576
+2026-05-28 23:38:00  INFO      [QQQ] bar 10:38 ET  signal=-0.1094  position=flat  atr_scale=1.044
+2026-05-28 23:38:47  INFO      [heartbeat] 10:38 ET  QQQ: flat(0주)  일일누적=$4,372/49,576
+2026-05-28 23:39:00  INFO      [QQQ] bar 10:39 ET  signal=-0.1417  position=flat  atr_scale=1.044
+2026-05-28 23:39:48  INFO      [heartbeat] 10:39 ET  QQQ: flat(0주)  일일누적=$4,372/49,576
+2026-05-28 23:40:00  INFO      [QQQ] bar 10:40 ET  signal=+0.2422  position=flat  atr_scale=1.044
+2026-05-28 23:40:00  INFO        [QQQ] 진입 예약: signal=+0.2422  atr_scale=1.044 → 다음 bar open 진입
+2026-05-28 23:40:48  INFO      [heartbeat] 10:40 ET  QQQ: flat(0주)  일일누적=$4,372/49,576
+2026-05-28 23:41:00  INFO      [QQQ] bar 10:41 ET  signal=+0.2237  position=flat  atr_scale=1.044
+2026-05-28 23:41:00  INFO        [QQQ] 진입 계산: equity=$99,151.31  mid=$732.17  notional=$2478.78  qty_계산=3주  cash=$99,151.31  한도=$49,576
+2026-05-28 23:41:01  INFO      BUY 주문 제출: QQQ 3주  order_id=cf7b1410-827e-4269-8145-db6b841471b7
+2026-05-28 23:41:03  WARNING     [QQQ] API 지연: 브로커=1주 < 주문=3주 → 3주 기준 유지
+2026-05-28 23:41:03  INFO        [QQQ] ✅ ENTER: 3주  mid=$732.17 → 체결$732.17  슬리피지=-0.07bp  signal=+0.2422  로컬저점손절=N/A  일일누적=$6,568/49,576
+2026-05-28 23:41:48  INFO      [heartbeat] 10:41 ET  QQQ: long(3주)  일일누적=$6,568/48,477
+2026-05-28 23:42:00  INFO      [QQQ] bar 10:42 ET  signal=+0.1845  position=long  atr_scale=1.044
+2026-05-28 23:42:00  INFO        [QQQ] 3주 @ $732.17  현재 $731.78  PnL=-0.053%  stop=1.044%  partial=0.835%
+2026-05-28 23:42:48  INFO      [heartbeat] 10:42 ET  QQQ: long(3주)  일일누적=$6,568/48,477
+2026-05-28 23:43:00  INFO      [QQQ] bar 10:43 ET  signal=+0.2217  position=long  atr_scale=1.044
+2026-05-28 23:43:00  INFO        [QQQ] 3주 @ $732.17  현재 $731.69  PnL=-0.065%  stop=1.044%  partial=0.835%
+2026-05-28 23:43:49  INFO      [heartbeat] 10:43 ET  QQQ: long(3주)  일일누적=$6,568/48,477
+2026-05-28 23:44:00  INFO      [QQQ] bar 10:44 ET  signal=+0.0369  position=long  atr_scale=1.044
+2026-05-28 23:44:00  INFO        [QQQ] 3주 @ $732.17  현재 $732.14  PnL=-0.004%  stop=1.044%  partial=0.835%
+2026-05-28 23:44:49  INFO      [heartbeat] 10:44 ET  QQQ: long(3주)  일일누적=$6,568/48,477
+2026-05-28 23:45:00  INFO      [QQQ] bar 10:45 ET  signal=+0.2638  position=long  atr_scale=1.044
+2026-05-28 23:45:00  INFO        [QQQ] 3주 @ $732.17  현재 $732.38  PnL=+0.029%  stop=1.044%  partial=0.835%
+2026-05-28 23:45:49  INFO      [heartbeat] 10:45 ET  QQQ: long(3주)  일일누적=$6,568/48,477
+2026-05-28 23:46:00  INFO      [QQQ] bar 10:46 ET  signal=-0.1904  position=long  atr_scale=1.044
+2026-05-28 23:46:00  INFO        [QQQ] 3주 @ $732.17  현재 $732.40  PnL=+0.032%  stop=1.044%  partial=0.835%
+2026-05-28 23:46:00  INFO      포지션 청산 완료: QQQ
+2026-05-28 23:46:03  INFO        [QQQ] ✅ 신호소멸: 3주 @ mid$732.40 → 실체결$732.39  PnL=$+0.67  슬리피지=-0.16bp  portfolio=$99,151.93
+2026-05-28 23:46:49  INFO      [heartbeat] 10:46 ET  QQQ: flat(0주)  일일누적=$6,568/49,576
+2026-05-28 23:47:00  INFO      [QQQ] bar 10:47 ET  signal=-0.1473  position=flat  atr_scale=1.044
+2026-05-28 23:47:49  INFO      [heartbeat] 10:47 ET  QQQ: flat(0주)  일일누적=$6,568/49,576
+2026-05-28 23:48:00  INFO      [QQQ] bar 10:48 ET  signal=-0.0703  position=flat  atr_scale=1.044
+2026-05-28 23:48:50  INFO      [heartbeat] 10:48 ET  QQQ: flat(0주)  일일누적=$6,568/49,576
+2026-05-28 23:49:00  INFO      [QQQ] bar 10:49 ET  signal=-0.2463  position=flat  atr_scale=1.044
+2026-05-28 23:49:50  INFO      [heartbeat] 10:49 ET  QQQ: flat(0주)  일일누적=$6,568/49,576
+2026-05-28 23:50:00  INFO      [QQQ] bar 10:50 ET  signal=+0.0503  position=flat  atr_scale=1.044
+2026-05-28 23:50:50  INFO      [heartbeat] 10:50 ET  QQQ: flat(0주)  일일누적=$6,568/49,576
+2026-05-28 23:51:00  INFO      [QQQ] bar 10:51 ET  signal=+0.1427  position=flat  atr_scale=1.044
+2026-05-28 23:51:50  INFO      [heartbeat] 10:51 ET  QQQ: flat(0주)  일일누적=$6,568/49,576
+2026-05-28 23:52:00  INFO      [QQQ] bar 10:52 ET  signal=-0.0234  position=flat  atr_scale=1.044
+2026-05-28 23:52:51  INFO      [heartbeat] 10:52 ET  QQQ: flat(0주)  일일누적=$6,568/49,576
+2026-05-28 23:53:00  INFO      [QQQ] bar 10:53 ET  signal=+0.1977  position=flat  atr_scale=1.044
+2026-05-28 23:53:51  INFO      [heartbeat] 10:53 ET  QQQ: flat(0주)  일일누적=$6,568/49,576
+2026-05-28 23:54:00  INFO      [QQQ] bar 10:54 ET  signal=+0.1219  position=flat  atr_scale=1.044
+2026-05-28 23:54:51  INFO      [heartbeat] 10:54 ET  QQQ: flat(0주)  일일누적=$6,568/49,576
+2026-05-28 23:55:00  INFO      [QQQ] bar 10:55 ET  signal=+0.0002  position=flat  atr_scale=1.044
+2026-05-28 23:55:51  INFO      [heartbeat] 10:55 ET  QQQ: flat(0주)  일일누적=$6,568/49,576
+2026-05-28 23:56:00  INFO      [QQQ] bar 10:56 ET  signal=-0.0260  position=flat  atr_scale=1.044
+2026-05-28 23:56:52  INFO      [heartbeat] 10:56 ET  QQQ: flat(0주)  일일누적=$6,568/49,576
+2026-05-28 23:57:00  INFO      [QQQ] bar 10:57 ET  signal=+0.2102  position=flat  atr_scale=1.044
+2026-05-28 23:57:00  INFO        [QQQ] 진입 예약: signal=+0.2102  atr_scale=1.044 → 다음 bar open 진입
+2026-05-28 23:57:52  INFO      [heartbeat] 10:57 ET  QQQ: flat(0주)  일일누적=$6,568/49,576
+2026-05-28 23:58:00  INFO      [QQQ] bar 10:58 ET  signal=+0.2125  position=flat  atr_scale=1.044
+2026-05-28 23:58:00  INFO        [QQQ] 진입 계산: equity=$99,151.93  mid=$732.41  notional=$2478.80  qty_계산=3주  cash=$99,151.93  한도=$49,576
+2026-05-28 23:58:01  INFO      BUY 주문 제출: QQQ 3주  order_id=fe2877f8-ee31-4c9c-8abf-113bdabe7f99
+2026-05-28 23:58:03  INFO        [QQQ] ✅ ENTER: 3주  mid=$732.41 → 체결$732.53  슬리피지=+1.64bp  signal=+0.2102  로컬저점손절=N/A  일일누적=$8,766/49,576
+2026-05-28 23:58:52  INFO      [heartbeat] 10:58 ET  QQQ: long(3주)  일일누적=$8,766/48,477
+2026-05-28 23:59:00  INFO      [QQQ] bar 10:59 ET  signal=+0.0420  position=long  atr_scale=1.044
+2026-05-28 23:59:00  INFO        [QQQ] 3주 @ $732.53  현재 $732.62  PnL=+0.013%  stop=1.044%  partial=0.835%
+2026-05-28 23:59:53  INFO      [heartbeat] 10:59 ET  QQQ: long(3주)  일일누적=$8,766/48,477
+2026-05-29 00:00:00  INFO      [QQQ] bar 11:00 ET  signal=+0.0013  position=long  atr_scale=1.044
+2026-05-29 00:00:00  INFO        [QQQ] 3주 @ $732.53  현재 $732.85  PnL=+0.043%  stop=1.044%  partial=0.835%
+2026-05-29 00:00:53  INFO      [heartbeat] 11:00 ET  QQQ: long(3주)  일일누적=$8,766/48,477
+2026-05-29 00:01:00  INFO      [QQQ] bar 11:01 ET  signal=-0.0619  position=long  atr_scale=1.044
+2026-05-29 00:01:00  INFO        [QQQ] 3주 @ $732.53  현재 $733.39  PnL=+0.118%  stop=1.044%  partial=0.835%
+2026-05-29 00:01:53  INFO      [heartbeat] 11:01 ET  QQQ: long(3주)  일일누적=$8,766/48,477
+2026-05-29 00:02:00  INFO      [QQQ] bar 11:02 ET  signal=+0.0777  position=long  atr_scale=1.044
+2026-05-29 00:02:00  INFO        [QQQ] 3주 @ $732.53  현재 $733.69  PnL=+0.158%  stop=1.044%  partial=0.835%
+2026-05-29 00:02:53  INFO      [heartbeat] 11:02 ET  QQQ: long(3주)  일일누적=$8,766/48,477
+2026-05-29 00:03:00  INFO      [QQQ] bar 11:03 ET  signal=-0.0837  position=long  atr_scale=1.044
+2026-05-29 00:03:00  INFO        [QQQ] 3주 @ $732.53  현재 $733.70  PnL=+0.160%  stop=1.044%  partial=0.835%
+2026-05-29 00:03:54  INFO      [heartbeat] 11:03 ET  QQQ: long(3주)  일일누적=$8,766/48,477
+2026-05-29 00:04:00  INFO      [QQQ] bar 11:04 ET  signal=-0.0017  position=long  atr_scale=1.044
+2026-05-29 00:04:00  INFO        [QQQ] 3주 @ $732.53  현재 $733.92  PnL=+0.190%  stop=1.044%  partial=0.835%
+2026-05-29 00:04:54  INFO      [heartbeat] 11:04 ET  QQQ: long(3주)  일일누적=$8,766/48,477
+2026-05-29 00:05:00  INFO      [QQQ] bar 11:05 ET  signal=+0.4374  position=long  atr_scale=1.044
+2026-05-29 00:05:00  INFO        [QQQ] 3주 @ $732.53  현재 $733.92  PnL=+0.190%  stop=1.044%  partial=0.835%
+2026-05-29 00:05:54  INFO      [heartbeat] 11:05 ET  QQQ: long(3주)  일일누적=$8,766/48,477
+2026-05-29 00:06:00  INFO      [QQQ] bar 11:06 ET  signal=+0.2506  position=long  atr_scale=1.044
+2026-05-29 00:06:00  INFO        [QQQ] 3주 @ $732.53  현재 $734.07  PnL=+0.210%  stop=1.044%  partial=0.835%
+2026-05-29 00:06:54  INFO      [heartbeat] 11:06 ET  QQQ: long(3주)  일일누적=$8,766/48,477
+2026-05-29 00:07:00  INFO      [QQQ] bar 11:07 ET  signal=+0.1081  position=long  atr_scale=1.044
+2026-05-29 00:07:00  INFO        [QQQ] 3주 @ $732.53  현재 $733.88  PnL=+0.184%  stop=1.044%  partial=0.835%
+2026-05-29 00:07:55  INFO      [heartbeat] 11:07 ET  QQQ: long(3주)  일일누적=$8,766/48,477
+2026-05-29 00:08:00  INFO      [QQQ] bar 11:08 ET  signal=-0.0472  position=long  atr_scale=1.044
+2026-05-29 00:08:00  INFO        [QQQ] 3주 @ $732.53  현재 $734.12  PnL=+0.218%  stop=1.044%  partial=0.835%
+2026-05-29 00:08:55  INFO      [heartbeat] 11:08 ET  QQQ: long(3주)  일일누적=$8,766/48,477
+2026-05-29 00:09:00  INFO      [QQQ] bar 11:09 ET  signal=+0.0928  position=long  atr_scale=1.044
+2026-05-29 00:09:00  INFO        [QQQ] 3주 @ $732.53  현재 $733.62  PnL=+0.149%  stop=1.044%  partial=0.835%
+2026-05-29 00:09:55  INFO      [heartbeat] 11:09 ET  QQQ: long(3주)  일일누적=$8,766/48,477
+2026-05-29 00:10:00  INFO      [QQQ] bar 11:10 ET  signal=+0.0527  position=long  atr_scale=1.044
+2026-05-29 00:10:00  INFO        [QQQ] 3주 @ $732.53  현재 $733.97  PnL=+0.196%  stop=1.044%  partial=0.835%
+2026-05-29 00:10:55  INFO      [heartbeat] 11:10 ET  QQQ: long(3주)  일일누적=$8,766/48,477
+2026-05-29 00:11:00  INFO      [QQQ] bar 11:11 ET  signal=-0.1320  position=long  atr_scale=1.044
+2026-05-29 00:11:00  INFO        [QQQ] 3주 @ $732.53  현재 $733.88  PnL=+0.185%  stop=1.044%  partial=0.835%
+2026-05-29 00:11:00  INFO      포지션 청산 완료: QQQ
+2026-05-29 00:11:02  INFO        [QQQ] ✅ 신호소멸: 3주 @ mid$733.88 → 실체결$733.88  PnL=$+4.07  슬리피지=+0.00bp  portfolio=$99,155.92
+2026-05-29 00:11:55  INFO      [heartbeat] 11:11 ET  QQQ: flat(0주)  일일누적=$8,766/49,578
+2026-05-29 00:12:00  INFO      [QQQ] bar 11:12 ET  signal=+0.1123  position=flat  atr_scale=1.044
+2026-05-29 00:12:56  INFO      [heartbeat] 11:12 ET  QQQ: flat(0주)  일일누적=$8,766/49,578
+2026-05-29 00:13:00  INFO      [QQQ] bar 11:13 ET  signal=-0.4906  position=flat  atr_scale=1.044
+2026-05-29 00:13:56  INFO      [heartbeat] 11:13 ET  QQQ: flat(0주)  일일누적=$8,766/49,578
+2026-05-29 00:14:00  INFO      [QQQ] bar 11:14 ET  signal=-0.2273  position=flat  atr_scale=1.044
+2026-05-29 00:14:56  INFO      [heartbeat] 11:14 ET  QQQ: flat(0주)  일일누적=$8,766/49,578
+2026-05-29 00:15:00  INFO      [QQQ] bar 11:15 ET  signal=-0.4523  position=flat  atr_scale=1.044
+2026-05-29 00:15:56  INFO      [heartbeat] 11:15 ET  QQQ: flat(0주)  일일누적=$8,766/49,578
+2026-05-29 00:16:00  INFO      [QQQ] bar 11:16 ET  signal=-0.3800  position=flat  atr_scale=1.044
+2026-05-29 00:16:57  INFO      [heartbeat] 11:16 ET  QQQ: flat(0주)  일일누적=$8,766/49,578
+2026-05-29 00:17:00  INFO      [QQQ] bar 11:17 ET  signal=-0.2641  position=flat  atr_scale=1.044
+2026-05-29 00:17:57  INFO      [heartbeat] 11:17 ET  QQQ: flat(0주)  일일누적=$8,766/49,578
+2026-05-29 00:18:00  INFO      [QQQ] bar 11:18 ET  signal=-0.0587  position=flat  atr_scale=1.044
+2026-05-29 00:18:57  INFO      [heartbeat] 11:18 ET  QQQ: flat(0주)  일일누적=$8,766/49,578
+2026-05-29 00:19:00  INFO      [QQQ] bar 11:19 ET  signal=-0.0392  position=flat  atr_scale=1.044
+2026-05-29 00:19:57  INFO      [heartbeat] 11:19 ET  QQQ: flat(0주)  일일누적=$8,766/49,578
+2026-05-29 00:20:00  INFO      [QQQ] bar 11:20 ET  signal=+0.0326  position=flat  atr_scale=1.044
+2026-05-29 00:20:57  INFO      [heartbeat] 11:20 ET  QQQ: flat(0주)  일일누적=$8,766/49,578
+2026-05-29 00:21:00  INFO      [QQQ] bar 11:21 ET  signal=+0.1461  position=flat  atr_scale=1.044
+2026-05-29 00:21:58  INFO      [heartbeat] 11:21 ET  QQQ: flat(0주)  일일누적=$8,766/49,578
+2026-05-29 00:22:00  INFO      [QQQ] bar 11:22 ET  signal=+0.1498  position=flat  atr_scale=1.044
+2026-05-29 00:22:58  INFO      [heartbeat] 11:22 ET  QQQ: flat(0주)  일일누적=$8,766/49,578
+2026-05-29 00:23:00  INFO      [QQQ] bar 11:23 ET  signal=+0.2774  position=flat  atr_scale=1.044
+2026-05-29 00:23:00  INFO        [QQQ] 진입 예약: signal=+0.2774  atr_scale=1.044 → 다음 bar open 진입
+2026-05-29 00:23:58  INFO      [heartbeat] 11:23 ET  QQQ: flat(0주)  일일누적=$8,766/49,578
+2026-05-29 00:24:00  INFO      [QQQ] bar 11:24 ET  signal=+0.0110  position=flat  atr_scale=1.044
+2026-05-29 00:24:00  INFO        [QQQ] 진입 계산: equity=$99,155.92  mid=$733.97  notional=$2478.90  qty_계산=3주  cash=$99,155.92  한도=$49,578
+2026-05-29 00:24:01  INFO      BUY 주문 제출: QQQ 3주  order_id=62322aae-6c9e-4aa1-a758-d476809e4f17
+2026-05-29 00:24:03  INFO        [QQQ] ✅ ENTER: 3주  mid=$733.97 → 체결$733.98  슬리피지=+0.14bp  signal=+0.2774  로컬저점손절=N/A  일일누적=$10,968/49,578
+2026-05-29 00:24:58  INFO      [heartbeat] 11:24 ET  QQQ: long(3주)  일일누적=$10,968/48,477
+2026-05-29 00:25:00  INFO      [QQQ] bar 11:25 ET  signal=+0.2552  position=long  atr_scale=1.044
+2026-05-29 00:25:00  INFO        [QQQ] 3주 @ $733.98  현재 $734.18  PnL=+0.028%  stop=1.044%  partial=0.835%
+2026-05-29 00:25:59  INFO      [heartbeat] 11:25 ET  QQQ: long(3주)  일일누적=$10,968/48,477
+2026-05-29 00:26:00  INFO      [QQQ] bar 11:26 ET  signal=-0.1236  position=long  atr_scale=1.044
+2026-05-29 00:26:00  INFO        [QQQ] 3주 @ $733.98  현재 $734.43  PnL=+0.061%  stop=1.044%  partial=0.835%
+2026-05-29 00:26:00  INFO      포지션 청산 완료: QQQ
+2026-05-29 00:26:04  INFO        [QQQ] ✅ 신호소멸: 3주 @ mid$734.43 → 실체결$734.43  PnL=$+1.35  슬리피지=+0.00bp  portfolio=$99,157.36
+2026-05-29 00:26:59  INFO      [heartbeat] 11:26 ET  QQQ: flat(0주)  일일누적=$10,968/49,579
+2026-05-29 00:27:00  INFO      [QQQ] bar 11:27 ET  signal=-0.2875  position=flat  atr_scale=1.044
+2026-05-29 00:27:59  INFO      [heartbeat] 11:27 ET  QQQ: flat(0주)  일일누적=$10,968/49,579
+2026-05-29 00:28:00  INFO      [QQQ] bar 11:28 ET  signal=-0.2262  position=flat  atr_scale=1.044
+2026-05-29 00:28:59  INFO      [heartbeat] 11:28 ET  QQQ: flat(0주)  일일누적=$10,968/49,579
+2026-05-29 00:29:00  INFO      [QQQ] bar 11:29 ET  signal=-0.1673  position=flat  atr_scale=1.044
+2026-05-29 00:30:00  INFO      [heartbeat] 11:30 ET  QQQ: flat(0주)  일일누적=$10,968/49,579
+2026-05-29 00:30:00  INFO      [QQQ] bar 11:30 ET  signal=+0.0203  position=flat  atr_scale=1.044
+2026-05-29 00:31:00  INFO      [QQQ] bar 11:31 ET  signal=-0.1320  position=flat  atr_scale=1.044
+2026-05-29 00:31:00  INFO      [heartbeat] 11:31 ET  QQQ: flat(0주)  일일누적=$10,968/49,579
+2026-05-29 00:32:00  INFO      [QQQ] bar 11:32 ET  signal=+0.1275  position=flat  atr_scale=1.044
+2026-05-29 00:32:00  INFO      [heartbeat] 11:32 ET  QQQ: flat(0주)  일일누적=$10,968/49,579
+2026-05-29 00:33:00  INFO      [QQQ] bar 11:33 ET  signal=+0.0828  position=flat  atr_scale=1.044
+2026-05-29 00:33:01  INFO      [heartbeat] 11:33 ET  QQQ: flat(0주)  일일누적=$10,968/49,579
+2026-05-29 00:34:00  INFO      [QQQ] bar 11:34 ET  signal=+0.0877  position=flat  atr_scale=1.044
+2026-05-29 00:34:01  INFO      [heartbeat] 11:34 ET  QQQ: flat(0주)  일일누적=$10,968/49,579
+2026-05-29 00:35:00  INFO      [QQQ] bar 11:35 ET  signal=+0.1645  position=flat  atr_scale=1.044
+2026-05-29 00:35:01  INFO      [heartbeat] 11:35 ET  QQQ: flat(0주)  일일누적=$10,968/49,579
+2026-05-29 00:36:00  INFO      [QQQ] bar 11:36 ET  signal=-0.0531  position=flat  atr_scale=1.044
+2026-05-29 00:36:01  INFO      [heartbeat] 11:36 ET  QQQ: flat(0주)  일일누적=$10,968/49,579
+2026-05-29 00:37:00  INFO      [QQQ] bar 11:37 ET  signal=-0.1408  position=flat  atr_scale=1.044
+2026-05-29 00:37:02  INFO      [heartbeat] 11:37 ET  QQQ: flat(0주)  일일누적=$10,968/49,579
+2026-05-29 00:38:00  INFO      [QQQ] bar 11:38 ET  signal=-0.1138  position=flat  atr_scale=1.044
+2026-05-29 00:38:02  INFO      [heartbeat] 11:38 ET  QQQ: flat(0주)  일일누적=$10,968/49,579
+2026-05-29 00:39:00  INFO      [QQQ] bar 11:39 ET  signal=-0.2170  position=flat  atr_scale=1.044
+2026-05-29 00:39:02  INFO      [heartbeat] 11:39 ET  QQQ: flat(0주)  일일누적=$10,968/49,579
+2026-05-29 00:40:00  INFO      [QQQ] bar 11:40 ET  signal=-0.1422  position=flat  atr_scale=1.044
+2026-05-29 00:40:02  INFO      [heartbeat] 11:40 ET  QQQ: flat(0주)  일일누적=$10,968/49,579
+2026-05-29 00:41:00  INFO      [QQQ] bar 11:41 ET  signal=-0.2341  position=flat  atr_scale=1.044
+2026-05-29 00:41:02  INFO      [heartbeat] 11:41 ET  QQQ: flat(0주)  일일누적=$10,968/49,579
+2026-05-29 00:42:00  INFO      [QQQ] bar 11:42 ET  signal=+0.0855  position=flat  atr_scale=1.044
+2026-05-29 00:42:03  INFO      [heartbeat] 11:42 ET  QQQ: flat(0주)  일일누적=$10,968/49,579
+2026-05-29 00:43:00  INFO      [QQQ] bar 11:43 ET  signal=+0.1393  position=flat  atr_scale=1.044
+2026-05-29 00:43:03  INFO      [heartbeat] 11:43 ET  QQQ: flat(0주)  일일누적=$10,968/49,579
+2026-05-29 00:44:00  INFO      [QQQ] bar 11:44 ET  signal=-0.1347  position=flat  atr_scale=1.044
+2026-05-29 00:44:03  INFO      [heartbeat] 11:44 ET  QQQ: flat(0주)  일일누적=$10,968/49,579
+2026-05-29 00:45:00  INFO      [QQQ] bar 11:45 ET  signal=-0.3085  position=flat  atr_scale=1.044
+2026-05-29 00:45:03  INFO      [heartbeat] 11:45 ET  QQQ: flat(0주)  일일누적=$10,968/49,579
+2026-05-29 00:46:00  INFO      [QQQ] bar 11:46 ET  signal=-0.0545  position=flat  atr_scale=1.044
+2026-05-29 00:46:04  INFO      [heartbeat] 11:46 ET  QQQ: flat(0주)  일일누적=$10,968/49,579
+2026-05-29 00:47:00  INFO      [QQQ] bar 11:47 ET  signal=+0.2167  position=flat  atr_scale=1.044
+2026-05-29 00:47:00  INFO        [QQQ] 진입 예약: signal=+0.2167  atr_scale=1.044 → 다음 bar open 진입
+2026-05-29 00:47:04  INFO      [heartbeat] 11:47 ET  QQQ: flat(0주)  일일누적=$10,968/49,579
+2026-05-29 00:48:00  INFO      [QQQ] bar 11:48 ET  signal=+0.0875  position=flat  atr_scale=1.044
+2026-05-29 00:48:00  INFO        [QQQ] 진입 계산: equity=$99,157.36  mid=$734.50  notional=$2478.93  qty_계산=3주  cash=$99,157.36  한도=$49,579
+2026-05-29 00:48:01  INFO      BUY 주문 제출: QQQ 3주  order_id=5c3afb7e-c8a6-4f6e-aecd-19e897dbe6bf
+2026-05-29 00:48:03  INFO        [QQQ] ✅ ENTER: 3주  mid=$734.50 → 체결$734.51  슬리피지=+0.02bp  signal=+0.2167  로컬저점손절=N/A  일일누적=$13,172/49,579
+2026-05-29 00:48:04  INFO      [heartbeat] 11:48 ET  QQQ: long(3주)  일일누적=$13,172/48,477
+2026-05-29 00:49:00  INFO      [QQQ] bar 11:49 ET  signal=+0.0822  position=long  atr_scale=1.044
+2026-05-29 00:49:00  INFO        [QQQ] 3주 @ $734.51  현재 $734.48  PnL=-0.004%  stop=1.044%  partial=0.835%
+2026-05-29 00:49:04  INFO      [heartbeat] 11:49 ET  QQQ: long(3주)  일일누적=$13,172/48,477
+2026-05-29 00:50:00  INFO      [QQQ] bar 11:50 ET  signal=+0.1646  position=long  atr_scale=1.044
+2026-05-29 00:50:00  INFO        [QQQ] 3주 @ $734.51  현재 $734.48  PnL=-0.004%  stop=1.044%  partial=0.835%
+2026-05-29 00:50:04  INFO      [heartbeat] 11:50 ET  QQQ: long(3주)  일일누적=$13,172/48,477
+2026-05-29 00:51:00  INFO      [QQQ] bar 11:51 ET  signal=+0.2898  position=long  atr_scale=1.044
+2026-05-29 00:51:00  INFO        [QQQ] 3주 @ $734.51  현재 $734.88  PnL=+0.050%  stop=1.044%  partial=0.835%
+2026-05-29 00:51:05  INFO      [heartbeat] 11:51 ET  QQQ: long(3주)  일일누적=$13,172/48,477
+2026-05-29 00:52:00  INFO      [QQQ] bar 11:52 ET  signal=-0.0603  position=long  atr_scale=1.044
+2026-05-29 00:52:00  INFO        [QQQ] 3주 @ $734.51  현재 $735.01  PnL=+0.069%  stop=1.044%  partial=0.835%
+2026-05-29 00:52:05  INFO      [heartbeat] 11:52 ET  QQQ: long(3주)  일일누적=$13,172/48,477
+2026-05-29 00:53:00  INFO      [QQQ] bar 11:53 ET  signal=-0.3811  position=long  atr_scale=1.044
+2026-05-29 00:53:00  INFO        [QQQ] 3주 @ $734.51  현재 $735.00  PnL=+0.067%  stop=1.044%  partial=0.835%
+2026-05-29 00:53:00  INFO      포지션 청산 완료: QQQ
+2026-05-29 00:53:02  INFO        [QQQ] ✅ 신호소멸: 3주 @ mid$735.00 → 실체결$735.00  PnL=$+1.48  슬리피지=+0.00bp  portfolio=$99,158.75
+2026-05-29 00:53:05  INFO      [heartbeat] 11:53 ET  QQQ: flat(0주)  일일누적=$13,172/49,579
+2026-05-29 00:54:00  INFO      [QQQ] bar 11:54 ET  signal=+0.1873  position=flat  atr_scale=1.044
+2026-05-29 00:54:05  INFO      [heartbeat] 11:54 ET  QQQ: flat(0주)  일일누적=$13,172/49,579
+2026-05-29 00:55:00  INFO      [QQQ] bar 11:55 ET  signal=+0.3090  position=flat  atr_scale=1.044
+2026-05-29 00:55:06  INFO      [heartbeat] 11:55 ET  QQQ: flat(0주)  일일누적=$13,172/49,579
+2026-05-29 00:56:00  INFO      [QQQ] bar 11:56 ET  signal=+0.4002  position=flat  atr_scale=1.044
+2026-05-29 00:56:06  INFO      [heartbeat] 11:56 ET  QQQ: flat(0주)  일일누적=$13,172/49,579
+2026-05-29 00:57:00  INFO      [QQQ] bar 11:57 ET  signal=+0.4292  position=flat  atr_scale=1.044
+2026-05-29 00:57:06  INFO      [heartbeat] 11:57 ET  QQQ: flat(0주)  일일누적=$13,172/49,579
+2026-05-29 00:58:00  INFO      [QQQ] bar 11:58 ET  signal=+0.6398  position=flat  atr_scale=1.044
+2026-05-29 00:58:06  INFO      [heartbeat] 11:58 ET  QQQ: flat(0주)  일일누적=$13,172/49,579
+2026-05-29 00:59:00  INFO      [QQQ] bar 11:59 ET  signal=+0.1353  position=flat  atr_scale=1.044
+2026-05-29 00:59:07  INFO      [heartbeat] 11:59 ET  QQQ: flat(0주)  일일누적=$13,172/49,579
+2026-05-29 01:00:00  INFO      [QQQ] bar 12:00 ET  signal=+0.2473  position=flat  atr_scale=1.044
+2026-05-29 01:00:00  INFO        [QQQ] 진입 예약: signal=+0.2473  atr_scale=1.044 → 다음 bar open 진입
+2026-05-29 01:00:07  INFO      [heartbeat] 12:00 ET  QQQ: flat(0주)  일일누적=$13,172/49,579
+2026-05-29 01:01:00  INFO      [QQQ] bar 12:01 ET  signal=+0.1304  position=flat  atr_scale=1.044
+2026-05-29 01:01:00  INFO        [QQQ] 진입 계산: equity=$99,158.75  mid=$734.61  notional=$2478.97  qty_계산=3주  cash=$99,158.75  한도=$49,579
+2026-05-29 01:01:01  INFO      BUY 주문 제출: QQQ 3주  order_id=9963f191-3f3a-4555-8028-e265f1d0bb08
+2026-05-29 01:01:03  WARNING     [QQQ] API 지연: 브로커=2주 < 주문=3주 → 3주 기준 유지
+2026-05-29 01:01:03  INFO        [QQQ] ✅ ENTER: 3주  mid=$734.61 → 체결$734.60  슬리피지=-0.07bp  signal=+0.2473  로컬저점손절=N/A  일일누적=$15,376/49,579
+2026-05-29 01:01:07  INFO      [heartbeat] 12:01 ET  QQQ: long(3주)  일일누적=$15,376/48,477
+2026-05-29 01:02:00  INFO      [QQQ] bar 12:02 ET  signal=+0.5948  position=long  atr_scale=1.044
+2026-05-29 01:02:00  INFO        [QQQ] 3주 @ $734.60  현재 $734.41  PnL=-0.026%  stop=1.044%  partial=0.835%
+2026-05-29 01:02:07  INFO      [heartbeat] 12:02 ET  QQQ: long(3주)  일일누적=$15,376/48,477
+2026-05-29 01:03:00  INFO      [QQQ] bar 12:03 ET  signal=+0.2947  position=long  atr_scale=1.044
+2026-05-29 01:03:00  INFO        [QQQ] 3주 @ $734.60  현재 $734.31  PnL=-0.039%  stop=1.044%  partial=0.835%
+2026-05-29 01:03:07  INFO      [heartbeat] 12:03 ET  QQQ: long(3주)  일일누적=$15,376/48,477
+2026-05-29 01:04:00  INFO      [QQQ] bar 12:04 ET  signal=+0.5013  position=long  atr_scale=1.044
+2026-05-29 01:04:00  INFO        [QQQ] 3주 @ $734.60  현재 $734.41  PnL=-0.025%  stop=1.044%  partial=0.835%
+2026-05-29 01:04:08  INFO      [heartbeat] 12:04 ET  QQQ: long(3주)  일일누적=$15,376/48,477
+2026-05-29 01:05:00  INFO      [QQQ] bar 12:05 ET  signal=+0.3842  position=long  atr_scale=1.044
+2026-05-29 01:05:00  INFO        [QQQ] 3주 @ $734.60  현재 $734.49  PnL=-0.015%  stop=1.044%  partial=0.835%
+2026-05-29 01:05:08  INFO      [heartbeat] 12:05 ET  QQQ: long(3주)  일일누적=$15,376/48,477
+2026-05-29 01:06:00  INFO      [QQQ] bar 12:06 ET  signal=+0.1642  position=long  atr_scale=1.044
+2026-05-29 01:06:00  INFO        [QQQ] 3주 @ $734.60  현재 $734.77  PnL=+0.023%  stop=1.044%  partial=0.835%
+2026-05-29 01:06:08  INFO      [heartbeat] 12:06 ET  QQQ: long(3주)  일일누적=$15,376/48,477
+2026-05-29 01:07:00  INFO      [QQQ] bar 12:07 ET  signal=+0.0341  position=long  atr_scale=1.044
+2026-05-29 01:07:00  INFO        [QQQ] 3주 @ $734.60  현재 $734.75  PnL=+0.021%  stop=1.044%  partial=0.835%
+2026-05-29 01:07:08  INFO      [heartbeat] 12:07 ET  QQQ: long(3주)  일일누적=$15,376/48,477
+2026-05-29 01:08:00  INFO      [QQQ] bar 12:08 ET  signal=+0.0492  position=long  atr_scale=1.044
+2026-05-29 01:08:00  INFO        [QQQ] 3주 @ $734.60  현재 $734.97  PnL=+0.050%  stop=1.044%  partial=0.835%
+2026-05-29 01:08:09  INFO      [heartbeat] 12:08 ET  QQQ: long(3주)  일일누적=$15,376/48,477
+2026-05-29 01:09:00  INFO      [QQQ] bar 12:09 ET  signal=+0.3597  position=long  atr_scale=1.044
+2026-05-29 01:09:00  INFO        [QQQ] 3주 @ $734.60  현재 $734.97  PnL=+0.050%  stop=1.044%  partial=0.835%
+2026-05-29 01:09:09  INFO      [heartbeat] 12:09 ET  QQQ: long(3주)  일일누적=$15,376/48,477
+2026-05-29 01:10:00  INFO      [QQQ] bar 12:10 ET  signal=+0.1067  position=long  atr_scale=1.044
+2026-05-29 01:10:00  INFO        [QQQ] 3주 @ $734.60  현재 $734.93  PnL=+0.046%  stop=1.044%  partial=0.835%
+2026-05-29 01:10:09  INFO      [heartbeat] 12:10 ET  QQQ: long(3주)  일일누적=$15,376/48,477
+2026-05-29 01:11:00  INFO      [QQQ] bar 12:11 ET  signal=+0.0878  position=long  atr_scale=1.044
+2026-05-29 01:11:00  INFO        [QQQ] 3주 @ $734.60  현재 $735.07  PnL=+0.063%  stop=1.044%  partial=0.835%
+2026-05-29 01:11:10  INFO      [heartbeat] 12:11 ET  QQQ: long(3주)  일일누적=$15,376/48,477
+2026-05-29 01:12:00  INFO      [QQQ] bar 12:12 ET  signal=+0.0311  position=long  atr_scale=1.044
+2026-05-29 01:12:00  INFO        [QQQ] 3주 @ $734.60  현재 $735.10  PnL=+0.067%  stop=1.044%  partial=0.835%
+2026-05-29 01:12:10  INFO      [heartbeat] 12:12 ET  QQQ: long(3주)  일일누적=$15,376/48,477
+2026-05-29 01:13:00  INFO      [QQQ] bar 12:13 ET  signal=+0.0831  position=long  atr_scale=1.044
+2026-05-29 01:13:00  INFO        [QQQ] 3주 @ $734.60  현재 $734.94  PnL=+0.046%  stop=1.044%  partial=0.835%
+2026-05-29 01:13:10  INFO      [heartbeat] 12:13 ET  QQQ: long(3주)  일일누적=$15,376/48,477
+2026-05-29 01:14:00  INFO      [QQQ] bar 12:14 ET  signal=-0.3960  position=long  atr_scale=1.044
+2026-05-29 01:14:00  INFO        [QQQ] 3주 @ $734.60  현재 $734.95  PnL=+0.048%  stop=1.044%  partial=0.835%
+2026-05-29 01:14:00  INFO      포지션 청산 완료: QQQ
+2026-05-29 01:14:02  INFO        [QQQ] ✅ 신호소멸: 3주 @ mid$734.95 → 실체결$734.95  PnL=$+1.05  슬리피지=+0.00bp  portfolio=$99,159.77
+2026-05-29 01:14:10  INFO      [heartbeat] 12:14 ET  QQQ: flat(0주)  일일누적=$15,376/49,580
+2026-05-29 01:15:00  INFO      [QQQ] bar 12:15 ET  signal=-0.0578  position=flat  atr_scale=1.044
+2026-05-29 01:15:11  INFO      [heartbeat] 12:15 ET  QQQ: flat(0주)  일일누적=$15,376/49,580
+2026-05-29 01:16:00  INFO      [QQQ] bar 12:16 ET  signal=-0.2861  position=flat  atr_scale=1.044
+2026-05-29 01:16:11  INFO      [heartbeat] 12:16 ET  QQQ: flat(0주)  일일누적=$15,376/49,580
+2026-05-29 01:17:00  INFO      [QQQ] bar 12:17 ET  signal=-0.3132  position=flat  atr_scale=1.044
+2026-05-29 01:17:11  INFO      [heartbeat] 12:17 ET  QQQ: flat(0주)  일일누적=$15,376/49,580
+2026-05-29 01:18:00  INFO      [QQQ] bar 12:18 ET  signal=-0.1664  position=flat  atr_scale=1.044
+2026-05-29 01:18:11  INFO      [heartbeat] 12:18 ET  QQQ: flat(0주)  일일누적=$15,376/49,580
+2026-05-29 01:19:00  INFO      [QQQ] bar 12:19 ET  signal=-0.0261  position=flat  atr_scale=1.044
+2026-05-29 01:19:12  INFO      [heartbeat] 12:19 ET  QQQ: flat(0주)  일일누적=$15,376/49,580
+2026-05-29 01:20:00  INFO      [QQQ] bar 12:20 ET  signal=+0.1087  position=flat  atr_scale=1.044
+2026-05-29 01:20:12  INFO      [heartbeat] 12:20 ET  QQQ: flat(0주)  일일누적=$15,376/49,580
+2026-05-29 01:21:00  INFO      [QQQ] bar 12:21 ET  signal=+0.2906  position=flat  atr_scale=1.044
+2026-05-29 01:21:00  INFO        [QQQ] 진입 예약: signal=+0.2906  atr_scale=1.044 → 다음 bar open 진입
+2026-05-29 01:21:12  INFO      [heartbeat] 12:21 ET  QQQ: flat(0주)  일일누적=$15,376/49,580
+2026-05-29 01:22:00  INFO      [QQQ] bar 12:22 ET  signal=+0.0077  position=flat  atr_scale=1.044
+2026-05-29 01:22:00  INFO        [QQQ] 진입 계산: equity=$99,159.77  mid=$735.51  notional=$2478.99  qty_계산=3주  cash=$99,159.77  한도=$49,580
+2026-05-29 01:22:01  INFO      BUY 주문 제출: QQQ 3주  order_id=b4dd2824-b891-40a3-88ee-4afe0a4f583f
+2026-05-29 01:22:03  WARNING     [QQQ] API 지연: 브로커=2주 < 주문=3주 → 3주 기준 유지
+2026-05-29 01:22:03  INFO        [QQQ] ✅ ENTER: 3주  mid=$735.51 → 체결$735.53  슬리피지=+0.27bp  signal=+0.2906  로컬저점손절=N/A  일일누적=$17,582/49,580
+2026-05-29 01:22:12  INFO      [heartbeat] 12:22 ET  QQQ: long(3주)  일일누적=$17,582/48,477
+2026-05-29 01:23:00  INFO      [QQQ] bar 12:23 ET  signal=+0.1739  position=long  atr_scale=1.044
+2026-05-29 01:23:00  INFO        [QQQ] 3주 @ $735.53  현재 $735.27  PnL=-0.035%  stop=1.044%  partial=0.835%
+2026-05-29 01:23:13  INFO      [heartbeat] 12:23 ET  QQQ: long(3주)  일일누적=$17,582/48,477
+2026-05-29 01:24:00  INFO      [QQQ] bar 12:24 ET  signal=-0.0217  position=long  atr_scale=1.044
+2026-05-29 01:24:00  INFO        [QQQ] 3주 @ $735.53  현재 $735.54  PnL=+0.002%  stop=1.044%  partial=0.835%
+2026-05-29 01:24:13  INFO      [heartbeat] 12:24 ET  QQQ: long(3주)  일일누적=$17,582/48,477
+2026-05-29 01:25:00  INFO      [QQQ] bar 12:25 ET  signal=+0.0257  position=long  atr_scale=1.044
+2026-05-29 01:25:00  INFO        [QQQ] 3주 @ $735.53  현재 $735.88  PnL=+0.048%  stop=1.044%  partial=0.835%
+2026-05-29 01:25:13  INFO      [heartbeat] 12:25 ET  QQQ: long(3주)  일일누적=$17,582/48,477
+2026-05-29 01:26:00  INFO      [QQQ] bar 12:26 ET  signal=+0.1453  position=long  atr_scale=1.044
+2026-05-29 01:26:00  INFO        [QQQ] 3주 @ $735.53  현재 $735.66  PnL=+0.018%  stop=1.044%  partial=0.835%
+2026-05-29 01:26:13  INFO      [heartbeat] 12:26 ET  QQQ: long(3주)  일일누적=$17,582/48,477
+2026-05-29 01:27:00  INFO      [QQQ] bar 12:27 ET  signal=+0.0421  position=long  atr_scale=1.044
+2026-05-29 01:27:00  INFO        [QQQ] 3주 @ $735.53  현재 $735.74  PnL=+0.029%  stop=1.044%  partial=0.835%
+2026-05-29 01:27:13  INFO      [heartbeat] 12:27 ET  QQQ: long(3주)  일일누적=$17,582/48,477
+2026-05-29 01:28:00  INFO      [QQQ] bar 12:28 ET  signal=+0.0450  position=long  atr_scale=1.044
+2026-05-29 01:28:00  INFO        [QQQ] 3주 @ $735.53  현재 $735.81  PnL=+0.038%  stop=1.044%  partial=0.835%
+2026-05-29 01:28:14  INFO      [heartbeat] 12:28 ET  QQQ: long(3주)  일일누적=$17,582/48,477
+2026-05-29 01:29:00  INFO      [QQQ] bar 12:29 ET  signal=+0.1909  position=long  atr_scale=1.044
+2026-05-29 01:29:00  INFO        [QQQ] 3주 @ $735.53  현재 $735.80  PnL=+0.037%  stop=1.044%  partial=0.835%
+2026-05-29 01:29:14  INFO      [heartbeat] 12:29 ET  QQQ: long(3주)  일일누적=$17,582/48,477
+2026-05-29 01:30:00  INFO      [QQQ] bar 12:30 ET  signal=-0.1096  position=long  atr_scale=1.044
+2026-05-29 01:30:00  INFO        [QQQ] 3주 @ $735.53  현재 $735.64  PnL=+0.015%  stop=1.044%  partial=0.835%
+2026-05-29 01:30:00  INFO      포지션 청산 완료: QQQ
+2026-05-29 01:30:05  INFO        [QQQ] ✅ 신호소멸: 3주 @ mid$735.64 → 실체결$735.64  PnL=$+0.33  슬리피지=+0.00bp  portfolio=$99,160.05
+2026-05-29 01:30:14  INFO      [heartbeat] 12:30 ET  QQQ: flat(0주)  일일누적=$17,582/49,580
+2026-05-29 01:31:00  INFO      [QQQ] bar 12:31 ET  signal=-0.4107  position=flat  atr_scale=1.044
+2026-05-29 01:31:14  INFO      [heartbeat] 12:31 ET  QQQ: flat(0주)  일일누적=$17,582/49,580
+2026-05-29 01:32:00  INFO      [QQQ] bar 12:32 ET  signal=-0.0599  position=flat  atr_scale=1.044
+2026-05-29 01:32:15  INFO      [heartbeat] 12:32 ET  QQQ: flat(0주)  일일누적=$17,582/49,580
+2026-05-29 01:33:00  INFO      [QQQ] bar 12:33 ET  signal=-0.2080  position=flat  atr_scale=1.044
+2026-05-29 01:33:15  INFO      [heartbeat] 12:33 ET  QQQ: flat(0주)  일일누적=$17,582/49,580
+2026-05-29 01:34:00  INFO      [QQQ] bar 12:34 ET  signal=-0.4025  position=flat  atr_scale=1.044
+2026-05-29 01:34:15  INFO      [heartbeat] 12:34 ET  QQQ: flat(0주)  일일누적=$17,582/49,580
+2026-05-29 01:35:00  INFO      [QQQ] bar 12:35 ET  signal=-0.0996  position=flat  atr_scale=1.044
+2026-05-29 01:35:16  INFO      [heartbeat] 12:35 ET  QQQ: flat(0주)  일일누적=$17,582/49,580
+2026-05-29 01:36:00  INFO      [QQQ] bar 12:36 ET  signal=+0.2604  position=flat  atr_scale=1.044
+2026-05-29 01:36:00  INFO        [QQQ] 진입 예약: signal=+0.2604  atr_scale=1.044 → 다음 bar open 진입
+2026-05-29 01:36:16  INFO      [heartbeat] 12:36 ET  QQQ: flat(0주)  일일누적=$17,582/49,580
+2026-05-29 01:37:00  INFO      [QQQ] bar 12:37 ET  signal=+0.1418  position=flat  atr_scale=1.044
+2026-05-29 01:37:00  INFO        [QQQ] 진입 계산: equity=$99,160.05  mid=$735.11  notional=$2479.00  qty_계산=3주  cash=$99,160.05  한도=$49,580
+2026-05-29 01:37:01  INFO      BUY 주문 제출: QQQ 3주  order_id=7ff1274c-46af-4a31-852b-a8f340d8f5d8
+2026-05-29 01:37:03  WARNING     [QQQ] 포지션 API 미반영 (actual=0) — 주문 수량 3주 사용
+2026-05-29 01:37:03  INFO        [QQQ] ✅ ENTER: 3주  mid=$735.11 → 체결$735.11  슬리피지=+0.00bp  signal=+0.2604  로컬저점손절=$700.71  일일누적=$19,788/49,580
+2026-05-29 01:37:16  INFO      [heartbeat] 12:37 ET  QQQ: long(3주)  일일누적=$19,788/48,477
+2026-05-29 01:38:00  INFO      [QQQ] bar 12:38 ET  signal=+0.1524  position=long  atr_scale=1.044
+2026-05-29 01:38:00  INFO        [QQQ] 3주 @ $735.11  현재 $735.18  PnL=+0.010%  stop=1.044%  partial=0.835%
+2026-05-29 01:38:16  INFO      [heartbeat] 12:38 ET  QQQ: long(3주)  일일누적=$19,788/48,477
+2026-05-29 01:39:00  INFO      [QQQ] bar 12:39 ET  signal=+0.0298  position=long  atr_scale=1.044
+2026-05-29 01:39:00  INFO        [QQQ] 3주 @ $735.11  현재 $735.38  PnL=+0.037%  stop=1.044%  partial=0.835%
+2026-05-29 01:39:17  INFO      [heartbeat] 12:39 ET  QQQ: long(3주)  일일누적=$19,788/48,477
+2026-05-29 01:40:00  INFO      [QQQ] bar 12:40 ET  signal=+0.0434  position=long  atr_scale=1.044
+2026-05-29 01:40:00  INFO        [QQQ] 3주 @ $735.11  현재 $735.44  PnL=+0.046%  stop=1.044%  partial=0.835%
+2026-05-29 01:40:17  INFO      [heartbeat] 12:40 ET  QQQ: long(3주)  일일누적=$19,788/48,477
+2026-05-29 01:41:00  INFO      [QQQ] bar 12:41 ET  signal=+0.0686  position=long  atr_scale=1.044
+2026-05-29 01:41:00  INFO        [QQQ] 3주 @ $735.11  현재 $735.57  PnL=+0.063%  stop=1.044%  partial=0.835%
+2026-05-29 01:41:17  INFO      [heartbeat] 12:41 ET  QQQ: long(3주)  일일누적=$19,788/48,477
+2026-05-29 01:42:00  INFO      [QQQ] bar 12:42 ET  signal=+0.2157  position=long  atr_scale=1.044
+2026-05-29 01:42:00  INFO        [QQQ] 3주 @ $735.11  현재 $735.81  PnL=+0.096%  stop=1.044%  partial=0.835%
+2026-05-29 01:42:17  INFO      [heartbeat] 12:42 ET  QQQ: long(3주)  일일누적=$19,788/48,477
+2026-05-29 01:43:00  INFO      [QQQ] bar 12:43 ET  signal=+0.2635  position=long  atr_scale=1.044
+2026-05-29 01:43:00  INFO        [QQQ] 3주 @ $735.11  현재 $735.75  PnL=+0.088%  stop=1.044%  partial=0.835%
+2026-05-29 01:43:17  INFO      [heartbeat] 12:43 ET  QQQ: long(3주)  일일누적=$19,788/48,477
+2026-05-29 01:44:00  INFO      [QQQ] bar 12:44 ET  signal=+0.3730  position=long  atr_scale=1.044
+2026-05-29 01:44:00  INFO        [QQQ] 3주 @ $735.11  현재 $735.66  PnL=+0.076%  stop=1.044%  partial=0.835%
+2026-05-29 01:44:18  INFO      [heartbeat] 12:44 ET  QQQ: long(3주)  일일누적=$19,788/48,477
+2026-05-29 01:45:00  INFO      [QQQ] bar 12:45 ET  signal=+0.0321  position=long  atr_scale=1.044
+2026-05-29 01:45:00  INFO        [QQQ] 3주 @ $735.11  현재 $735.75  PnL=+0.088%  stop=1.044%  partial=0.835%
+2026-05-29 01:45:18  INFO      [heartbeat] 12:45 ET  QQQ: long(3주)  일일누적=$19,788/48,477
+2026-05-29 01:46:00  INFO      [QQQ] bar 12:46 ET  signal=+0.0626  position=long  atr_scale=1.044
+2026-05-29 01:46:00  INFO        [QQQ] 3주 @ $735.11  현재 $735.77  PnL=+0.090%  stop=1.044%  partial=0.835%
+2026-05-29 01:46:18  INFO      [heartbeat] 12:46 ET  QQQ: long(3주)  일일누적=$19,788/48,477
+2026-05-29 01:47:00  INFO      [QQQ] bar 12:47 ET  signal=-0.0551  position=long  atr_scale=1.044
+2026-05-29 01:47:00  INFO        [QQQ] 3주 @ $735.11  현재 $735.95  PnL=+0.116%  stop=1.044%  partial=0.835%
+2026-05-29 01:47:18  INFO      [heartbeat] 12:47 ET  QQQ: long(3주)  일일누적=$19,788/48,477
+2026-05-29 01:48:00  INFO      [QQQ] bar 12:48 ET  signal=-0.0339  position=long  atr_scale=1.044
+2026-05-29 01:48:00  INFO        [QQQ] 3주 @ $735.11  현재 $736.00  PnL=+0.122%  stop=1.044%  partial=0.835%
+2026-05-29 01:48:19  INFO      [heartbeat] 12:48 ET  QQQ: long(3주)  일일누적=$19,788/48,477
+2026-05-29 01:49:00  INFO      [QQQ] bar 12:49 ET  signal=-0.1415  position=long  atr_scale=1.044
+2026-05-29 01:49:00  INFO        [QQQ] 3주 @ $735.11  현재 $735.90  PnL=+0.108%  stop=1.044%  partial=0.835%
+2026-05-29 01:49:00  INFO      포지션 청산 완료: QQQ
+2026-05-29 01:49:02  INFO        [QQQ] ✅ 신호소멸: 3주 @ mid$735.90 → 실체결$735.90  PnL=$+2.38  슬리피지=+0.00bp  portfolio=$99,162.21
+2026-05-29 01:49:19  INFO      [heartbeat] 12:49 ET  QQQ: flat(0주)  일일누적=$19,788/49,581
+2026-05-29 01:50:00  INFO      [QQQ] bar 12:50 ET  signal=+0.0897  position=flat  atr_scale=1.044
+2026-05-29 01:50:19  INFO      [heartbeat] 12:50 ET  QQQ: flat(0주)  일일누적=$19,788/49,581
+2026-05-29 01:51:00  INFO      [QQQ] bar 12:51 ET  signal=+0.2006  position=flat  atr_scale=1.044
+2026-05-29 01:51:19  INFO      [heartbeat] 12:51 ET  QQQ: flat(0주)  일일누적=$19,788/49,581
+2026-05-29 01:52:00  INFO      [QQQ] bar 12:52 ET  signal=+0.2654  position=flat  atr_scale=1.044
+2026-05-29 01:52:20  INFO      [heartbeat] 12:52 ET  QQQ: flat(0주)  일일누적=$19,788/49,581
+2026-05-29 01:53:00  INFO      [QQQ] bar 12:53 ET  signal=+0.1681  position=flat  atr_scale=1.044
+2026-05-29 01:53:20  INFO      [heartbeat] 12:53 ET  QQQ: flat(0주)  일일누적=$19,788/49,581
+2026-05-29 01:54:00  INFO      [QQQ] bar 12:54 ET  signal=-0.1173  position=flat  atr_scale=1.044
+2026-05-29 01:54:20  INFO      [heartbeat] 12:54 ET  QQQ: flat(0주)  일일누적=$19,788/49,581
+2026-05-29 01:55:00  INFO      [QQQ] bar 12:55 ET  signal=+0.0834  position=flat  atr_scale=1.044
+2026-05-29 01:55:20  INFO      [heartbeat] 12:55 ET  QQQ: flat(0주)  일일누적=$19,788/49,581
+2026-05-29 01:56:00  INFO      [QQQ] bar 12:56 ET  signal=+0.1256  position=flat  atr_scale=1.044
+2026-05-29 01:56:21  INFO      [heartbeat] 12:56 ET  QQQ: flat(0주)  일일누적=$19,788/49,581
+2026-05-29 01:57:00  INFO      [QQQ] bar 12:57 ET  signal=-0.1446  position=flat  atr_scale=1.044
+2026-05-29 01:57:21  INFO      [heartbeat] 12:57 ET  QQQ: flat(0주)  일일누적=$19,788/49,581
+2026-05-29 01:58:00  INFO      [QQQ] bar 12:58 ET  signal=+0.3550  position=flat  atr_scale=1.044
+2026-05-29 01:58:00  INFO        [QQQ] 진입 예약: signal=+0.3550  atr_scale=1.044 → 다음 bar open 진입
+2026-05-29 01:58:21  INFO      [heartbeat] 12:58 ET  QQQ: flat(0주)  일일누적=$19,788/49,581
+2026-05-29 01:59:00  INFO      [QQQ] bar 12:59 ET  signal=+0.1104  position=flat  atr_scale=1.044
+2026-05-29 01:59:00  INFO        [QQQ] 진입 계산: equity=$99,162.21  mid=$736.16  notional=$2479.06  qty_계산=3주  cash=$99,162.21  한도=$49,581
+2026-05-29 01:59:01  INFO      BUY 주문 제출: QQQ 3주  order_id=4b1dd767-4765-4ffc-9019-12efbc351f85
+2026-05-29 01:59:03  INFO        [QQQ] ✅ ENTER: 3주  mid=$736.16 → 체결$736.16  슬리피지=+0.00bp  signal=+0.3550  로컬저점손절=N/A  일일누적=$21,996/49,581
+2026-05-29 01:59:21  INFO      [heartbeat] 12:59 ET  QQQ: long(3주)  일일누적=$21,996/48,477
+2026-05-29 02:00:00  INFO      [QQQ] bar 13:00 ET  signal=+0.2386  position=long  atr_scale=1.044
+2026-05-29 02:00:00  INFO        [QQQ] 3주 @ $736.16  현재 $736.23  PnL=+0.009%  stop=1.044%  partial=0.835%
+2026-05-29 02:00:22  INFO      [heartbeat] 13:00 ET  QQQ: long(3주)  일일누적=$21,996/48,477
+2026-05-29 02:01:00  INFO      [QQQ] bar 13:01 ET  signal=+0.1498  position=long  atr_scale=1.044
+2026-05-29 02:01:00  INFO        [QQQ] 3주 @ $736.16  현재 $736.39  PnL=+0.031%  stop=1.044%  partial=0.835%
+2026-05-29 02:01:22  INFO      [heartbeat] 13:01 ET  QQQ: long(3주)  일일누적=$21,996/48,477
+2026-05-29 02:02:00  INFO      [QQQ] bar 13:02 ET  signal=-0.0450  position=long  atr_scale=1.044
+2026-05-29 02:02:00  INFO        [QQQ] 3주 @ $736.16  현재 $736.28  PnL=+0.016%  stop=1.044%  partial=0.835%
+2026-05-29 02:02:22  INFO      [heartbeat] 13:02 ET  QQQ: long(3주)  일일누적=$21,996/48,477
+2026-05-29 02:03:00  INFO      [QQQ] bar 13:03 ET  signal=+0.2745  position=long  atr_scale=1.044
+2026-05-29 02:03:00  INFO        [QQQ] 3주 @ $736.16  현재 $736.25  PnL=+0.012%  stop=1.044%  partial=0.835%
+2026-05-29 02:03:22  INFO      [heartbeat] 13:03 ET  QQQ: long(3주)  일일누적=$21,996/48,477
+2026-05-29 02:04:00  INFO      [QQQ] bar 13:04 ET  signal=+0.0705  position=long  atr_scale=1.044
+2026-05-29 02:04:00  INFO        [QQQ] 3주 @ $736.16  현재 $736.41  PnL=+0.034%  stop=1.044%  partial=0.835%
+2026-05-29 02:04:23  INFO      [heartbeat] 13:04 ET  QQQ: long(3주)  일일누적=$21,996/48,477
+2026-05-29 02:05:00  INFO      [QQQ] bar 13:05 ET  signal=+0.0912  position=long  atr_scale=1.044
+2026-05-29 02:05:00  INFO        [QQQ] 3주 @ $736.16  현재 $736.29  PnL=+0.018%  stop=1.044%  partial=0.835%
+2026-05-29 02:05:23  INFO      [heartbeat] 13:05 ET  QQQ: long(3주)  일일누적=$21,996/48,477
+2026-05-29 02:06:00  INFO      [QQQ] bar 13:06 ET  signal=+0.1905  position=long  atr_scale=1.044
+2026-05-29 02:06:00  INFO        [QQQ] 3주 @ $736.16  현재 $736.33  PnL=+0.022%  stop=1.044%  partial=0.835%
+2026-05-29 02:06:23  INFO      [heartbeat] 13:06 ET  QQQ: long(3주)  일일누적=$21,996/48,477
+2026-05-29 02:07:00  INFO      [QQQ] bar 13:07 ET  signal=+0.0347  position=long  atr_scale=1.044
+2026-05-29 02:07:00  INFO        [QQQ] 3주 @ $736.16  현재 $736.33  PnL=+0.023%  stop=1.044%  partial=0.835%
+2026-05-29 02:07:23  INFO      [heartbeat] 13:07 ET  QQQ: long(3주)  일일누적=$21,996/48,477
+2026-05-29 02:08:00  INFO      [QQQ] bar 13:08 ET  signal=+0.2297  position=long  atr_scale=1.044
+2026-05-29 02:08:00  INFO        [QQQ] 3주 @ $736.16  현재 $736.21  PnL=+0.006%  stop=1.044%  partial=0.835%
+2026-05-29 02:08:24  INFO      [heartbeat] 13:08 ET  QQQ: long(3주)  일일누적=$21,996/48,477
+2026-05-29 02:09:00  INFO      [QQQ] bar 13:09 ET  signal=+0.2642  position=long  atr_scale=1.044
+2026-05-29 02:09:00  INFO        [QQQ] 3주 @ $736.16  현재 $736.19  PnL=+0.005%  stop=1.044%  partial=0.835%
+2026-05-29 02:09:24  INFO      [heartbeat] 13:09 ET  QQQ: long(3주)  일일누적=$21,996/48,477
+2026-05-29 02:10:00  INFO      [QQQ] bar 13:10 ET  signal=+0.2279  position=long  atr_scale=1.044
+2026-05-29 02:10:00  INFO        [QQQ] 3주 @ $736.16  현재 $736.09  PnL=-0.010%  stop=1.044%  partial=0.835%
+2026-05-29 02:10:24  INFO      [heartbeat] 13:10 ET  QQQ: long(3주)  일일누적=$21,996/48,477
+2026-05-29 02:11:00  INFO      [QQQ] bar 13:11 ET  signal=+0.2650  position=long  atr_scale=1.044
+2026-05-29 02:11:00  INFO        [QQQ] 3주 @ $736.16  현재 $736.15  PnL=-0.001%  stop=1.044%  partial=0.835%
+2026-05-29 02:11:24  INFO      [heartbeat] 13:11 ET  QQQ: long(3주)  일일누적=$21,996/48,477
+2026-05-29 02:12:00  INFO      [QQQ] bar 13:12 ET  signal=+0.2051  position=long  atr_scale=1.044
+2026-05-29 02:12:00  INFO        [QQQ] 3주 @ $736.16  현재 $736.03  PnL=-0.017%  stop=1.044%  partial=0.835%
+2026-05-29 02:12:24  INFO      [heartbeat] 13:12 ET  QQQ: long(3주)  일일누적=$21,996/48,477
+2026-05-29 02:13:00  INFO      [QQQ] bar 13:13 ET  signal=+0.1540  position=long  atr_scale=1.044
+2026-05-29 02:13:00  INFO        [QQQ] 3주 @ $736.16  현재 $736.09  PnL=-0.010%  stop=1.044%  partial=0.835%
+2026-05-29 02:13:25  INFO      [heartbeat] 13:13 ET  QQQ: long(3주)  일일누적=$21,996/48,477
+2026-05-29 02:14:00  INFO      [QQQ] bar 13:14 ET  signal=+0.1764  position=long  atr_scale=1.044
+2026-05-29 02:14:00  INFO        [QQQ] 3주 @ $736.16  현재 $736.05  PnL=-0.014%  stop=1.044%  partial=0.835%
+2026-05-29 02:14:25  INFO      [heartbeat] 13:14 ET  QQQ: long(3주)  일일누적=$21,996/48,477
+2026-05-29 02:15:00  INFO      [QQQ] bar 13:15 ET  signal=+0.0120  position=long  atr_scale=1.044
+2026-05-29 02:15:00  INFO        [QQQ] 3주 @ $736.16  현재 $736.00  PnL=-0.022%  stop=1.044%  partial=0.835%
+2026-05-29 02:15:25  INFO      [heartbeat] 13:15 ET  QQQ: long(3주)  일일누적=$21,996/48,477
+2026-05-29 02:16:00  INFO      [QQQ] bar 13:16 ET  signal=+0.0322  position=long  atr_scale=1.044
+2026-05-29 02:16:00  INFO        [QQQ] 3주 @ $736.16  현재 $735.88  PnL=-0.039%  stop=1.044%  partial=0.835%
+2026-05-29 02:16:25  INFO      [heartbeat] 13:16 ET  QQQ: long(3주)  일일누적=$21,996/48,477
+2026-05-29 02:17:00  INFO      [QQQ] bar 13:17 ET  signal=+0.2152  position=long  atr_scale=1.044
+2026-05-29 02:17:00  INFO        [QQQ] 3주 @ $736.16  현재 $735.74  PnL=-0.057%  stop=1.044%  partial=0.835%
+2026-05-29 02:17:26  INFO      [heartbeat] 13:17 ET  QQQ: long(3주)  일일누적=$21,996/48,477
+2026-05-29 02:18:00  INFO      [QQQ] bar 13:18 ET  signal=+0.1442  position=long  atr_scale=1.044
+2026-05-29 02:18:00  INFO        [QQQ] 3주 @ $736.16  현재 $735.75  PnL=-0.055%  stop=1.044%  partial=0.835%
+2026-05-29 02:18:26  INFO      [heartbeat] 13:18 ET  QQQ: long(3주)  일일누적=$21,996/48,477
+2026-05-29 02:19:00  INFO      [QQQ] bar 13:19 ET  signal=+0.1157  position=long  atr_scale=1.044
+2026-05-29 02:19:00  INFO        [QQQ] 3주 @ $736.16  현재 $735.67  PnL=-0.066%  stop=1.044%  partial=0.835%
+2026-05-29 02:19:26  INFO      [heartbeat] 13:19 ET  QQQ: long(3주)  일일누적=$21,996/48,477
+2026-05-29 02:20:00  INFO      [QQQ] bar 13:20 ET  signal=-0.1158  position=long  atr_scale=1.044
+2026-05-29 02:20:00  INFO        [QQQ] 3주 @ $736.16  현재 $735.66  PnL=-0.068%  stop=1.044%  partial=0.835%
+2026-05-29 02:20:00  INFO      포지션 청산 완료: QQQ
+2026-05-29 02:20:02  INFO        [QQQ] 🔴 신호소멸: 3주 @ mid$735.66 → 실체결$735.66  PnL=$-1.50  슬리피지=+0.00bp  portfolio=$99,160.70
+2026-05-29 02:20:26  INFO      [heartbeat] 13:20 ET  QQQ: flat(0주)  일일누적=$21,996/49,580
+2026-05-29 02:21:00  INFO      [QQQ] bar 13:21 ET  signal=-0.3048  position=flat  atr_scale=1.044
+2026-05-29 02:21:27  INFO      [heartbeat] 13:21 ET  QQQ: flat(0주)  일일누적=$21,996/49,580
+2026-05-29 02:22:00  INFO      [QQQ] bar 13:22 ET  signal=-0.2490  position=flat  atr_scale=1.044
+2026-05-29 02:22:27  INFO      [heartbeat] 13:22 ET  QQQ: flat(0주)  일일누적=$21,996/49,580
+2026-05-29 02:23:00  INFO      [QQQ] bar 13:23 ET  signal=-0.1685  position=flat  atr_scale=1.044
+2026-05-29 02:23:27  INFO      [heartbeat] 13:23 ET  QQQ: flat(0주)  일일누적=$21,996/49,580
+2026-05-29 02:24:00  INFO      [QQQ] bar 13:24 ET  signal=+0.0738  position=flat  atr_scale=1.044
+2026-05-29 02:24:27  INFO      [heartbeat] 13:24 ET  QQQ: flat(0주)  일일누적=$21,996/49,580
+2026-05-29 02:25:00  INFO      [QQQ] bar 13:25 ET  signal=-0.2157  position=flat  atr_scale=1.044
+2026-05-29 02:25:28  INFO      [heartbeat] 13:25 ET  QQQ: flat(0주)  일일누적=$21,996/49,580
+2026-05-29 02:26:00  INFO      [QQQ] bar 13:26 ET  signal=-0.1821  position=flat  atr_scale=1.044
+2026-05-29 02:26:28  INFO      [heartbeat] 13:26 ET  QQQ: flat(0주)  일일누적=$21,996/49,580
+2026-05-29 02:27:00  INFO      [QQQ] bar 13:27 ET  signal=+0.0160  position=flat  atr_scale=1.044
+2026-05-29 02:27:28  INFO      [heartbeat] 13:27 ET  QQQ: flat(0주)  일일누적=$21,996/49,580
+2026-05-29 02:28:00  INFO      [QQQ] bar 13:28 ET  signal=+0.0296  position=flat  atr_scale=1.044
+2026-05-29 02:28:28  INFO      [heartbeat] 13:28 ET  QQQ: flat(0주)  일일누적=$21,996/49,580
+2026-05-29 02:29:00  INFO      [QQQ] bar 13:29 ET  signal=-0.0006  position=flat  atr_scale=1.044
+2026-05-29 02:29:28  INFO      [heartbeat] 13:29 ET  QQQ: flat(0주)  일일누적=$21,996/49,580
+2026-05-29 02:30:00  INFO      [QQQ] bar 13:30 ET  signal=-0.0583  position=flat  atr_scale=1.044
+2026-05-29 02:30:29  INFO      [heartbeat] 13:30 ET  QQQ: flat(0주)  일일누적=$21,996/49,580
+2026-05-29 02:31:00  INFO      [QQQ] bar 13:31 ET  signal=-0.0878  position=flat  atr_scale=1.044
+2026-05-29 02:31:29  INFO      [heartbeat] 13:31 ET  QQQ: flat(0주)  일일누적=$21,996/49,580
+2026-05-29 02:32:00  INFO      [QQQ] bar 13:32 ET  signal=-0.2241  position=flat  atr_scale=1.044
+2026-05-29 02:32:29  INFO      [heartbeat] 13:32 ET  QQQ: flat(0주)  일일누적=$21,996/49,580
+2026-05-29 02:33:00  INFO      [QQQ] bar 13:33 ET  signal=-0.1597  position=flat  atr_scale=1.044
+2026-05-29 02:33:30  INFO      [heartbeat] 13:33 ET  QQQ: flat(0주)  일일누적=$21,996/49,580
+2026-05-29 02:34:00  INFO      [QQQ] bar 13:34 ET  signal=-0.0483  position=flat  atr_scale=1.044
+2026-05-29 02:34:30  INFO      [heartbeat] 13:34 ET  QQQ: flat(0주)  일일누적=$21,996/49,580
+2026-05-29 02:35:00  INFO      [QQQ] bar 13:35 ET  signal=-0.2373  position=flat  atr_scale=1.044
+2026-05-29 02:35:30  INFO      [heartbeat] 13:35 ET  QQQ: flat(0주)  일일누적=$21,996/49,580
+2026-05-29 02:36:00  INFO      [QQQ] bar 13:36 ET  signal=-0.2991  position=flat  atr_scale=1.044
+2026-05-29 02:36:30  INFO      [heartbeat] 13:36 ET  QQQ: flat(0주)  일일누적=$21,996/49,580
+2026-05-29 02:37:00  INFO      [QQQ] bar 13:37 ET  signal=-0.4463  position=flat  atr_scale=1.044
+2026-05-29 02:37:31  INFO      [heartbeat] 13:37 ET  QQQ: flat(0주)  일일누적=$21,996/49,580
+2026-05-29 02:38:00  INFO      [QQQ] bar 13:38 ET  signal=-0.1136  position=flat  atr_scale=1.044
+2026-05-29 02:38:31  INFO      [heartbeat] 13:38 ET  QQQ: flat(0주)  일일누적=$21,996/49,580
+2026-05-29 02:39:00  INFO      [QQQ] bar 13:39 ET  signal=-0.0583  position=flat  atr_scale=1.044
+2026-05-29 02:39:31  INFO      [heartbeat] 13:39 ET  QQQ: flat(0주)  일일누적=$21,996/49,580
+2026-05-29 02:40:00  INFO      [QQQ] bar 13:40 ET  signal=-0.1607  position=flat  atr_scale=1.044
+2026-05-29 02:40:31  INFO      [heartbeat] 13:40 ET  QQQ: flat(0주)  일일누적=$21,996/49,580
+2026-05-29 02:41:00  INFO      [QQQ] bar 13:41 ET  signal=+0.2037  position=flat  atr_scale=1.044
+2026-05-29 02:41:00  INFO        [QQQ] 진입 예약: signal=+0.2037  atr_scale=1.044 → 다음 bar open 진입
+2026-05-29 02:41:32  INFO      [heartbeat] 13:41 ET  QQQ: flat(0주)  일일누적=$21,996/49,580
+2026-05-29 02:42:00  INFO      [QQQ] bar 13:42 ET  signal=-0.1188  position=flat  atr_scale=1.044
+2026-05-29 02:42:00  INFO        [QQQ] 진입 계산: equity=$99,160.70  mid=$736.08  notional=$2479.02  qty_계산=3주  cash=$99,160.70  한도=$49,580
+2026-05-29 02:42:01  INFO      BUY 주문 제출: QQQ 3주  order_id=43b6a0ae-b852-428e-a6b6-e3a98baa1700
+2026-05-29 02:42:03  WARNING     [QQQ] API 지연: 브로커=2주 < 주문=3주 → 3주 기준 유지
+2026-05-29 02:42:03  INFO        [QQQ] ✅ ENTER: 3주  mid=$736.08 → 체결$736.07  슬리피지=-0.02bp  signal=+0.2037  로컬저점손절=$729.49  일일누적=$24,205/49,580
+2026-05-29 02:42:32  INFO      [heartbeat] 13:42 ET  QQQ: long(3주)  일일누적=$24,205/48,476
+2026-05-29 02:43:00  INFO      [QQQ] bar 13:43 ET  signal=+0.1721  position=long  atr_scale=1.044
+2026-05-29 02:43:00  INFO        [QQQ] 3주 @ $736.07  현재 $736.07  PnL=-0.000%  stop=1.044%  partial=0.835%
+2026-05-29 02:43:32  INFO      [heartbeat] 13:43 ET  QQQ: long(3주)  일일누적=$24,205/48,476
+2026-05-29 02:44:00  INFO      [QQQ] bar 13:44 ET  signal=+0.0968  position=long  atr_scale=1.044
+2026-05-29 02:44:00  INFO        [QQQ] 3주 @ $736.07  현재 $736.13  PnL=+0.008%  stop=1.044%  partial=0.835%
+2026-05-29 02:44:32  INFO      [heartbeat] 13:44 ET  QQQ: long(3주)  일일누적=$24,205/48,476
+2026-05-29 02:45:00  INFO      [QQQ] bar 13:45 ET  signal=-0.0100  position=long  atr_scale=1.044
+2026-05-29 02:45:00  INFO        [QQQ] 3주 @ $736.07  현재 $736.12  PnL=+0.007%  stop=1.044%  partial=0.835%
+2026-05-29 02:45:32  INFO      [heartbeat] 13:45 ET  QQQ: long(3주)  일일누적=$24,205/48,476
+2026-05-29 02:46:00  INFO      [QQQ] bar 13:46 ET  signal=-0.1457  position=long  atr_scale=1.044
+2026-05-29 02:46:00  INFO        [QQQ] 3주 @ $736.07  현재 $736.21  PnL=+0.019%  stop=1.044%  partial=0.835%
+2026-05-29 02:46:00  INFO      포지션 청산 완료: QQQ
+2026-05-29 02:46:01  INFO        [QQQ] ✅ 신호소멸: 3주 @ mid$736.21 → 실체결$736.21  PnL=$+0.41  슬리피지=+0.00bp  portfolio=$99,161.05
+2026-05-29 02:46:33  INFO      [heartbeat] 13:46 ET  QQQ: flat(0주)  일일누적=$24,205/49,581
+2026-05-29 02:47:00  INFO      [QQQ] bar 13:47 ET  signal=-0.0821  position=flat  atr_scale=1.044
+2026-05-29 02:47:33  INFO      [heartbeat] 13:47 ET  QQQ: flat(0주)  일일누적=$24,205/49,581
+2026-05-29 02:48:00  INFO      [QQQ] bar 13:48 ET  signal=-0.0730  position=flat  atr_scale=1.044
+2026-05-29 02:48:33  INFO      [heartbeat] 13:48 ET  QQQ: flat(0주)  일일누적=$24,205/49,581
+2026-05-29 02:49:00  INFO      [QQQ] bar 13:49 ET  signal=-0.0405  position=flat  atr_scale=1.044
+2026-05-29 02:49:33  INFO      [heartbeat] 13:49 ET  QQQ: flat(0주)  일일누적=$24,205/49,581
+2026-05-29 02:50:00  INFO      [QQQ] bar 13:50 ET  signal=-0.0908  position=flat  atr_scale=1.044
+2026-05-29 02:50:34  INFO      [heartbeat] 13:50 ET  QQQ: flat(0주)  일일누적=$24,205/49,581
+2026-05-29 02:51:00  INFO      [QQQ] bar 13:51 ET  signal=+0.1328  position=flat  atr_scale=1.044
+2026-05-29 02:51:34  INFO      [heartbeat] 13:51 ET  QQQ: flat(0주)  일일누적=$24,205/49,581
+2026-05-29 02:52:00  INFO      [QQQ] bar 13:52 ET  signal=-0.0025  position=flat  atr_scale=1.044
+2026-05-29 02:52:34  INFO      [heartbeat] 13:52 ET  QQQ: flat(0주)  일일누적=$24,205/49,581
+2026-05-29 02:53:00  INFO      [QQQ] bar 13:53 ET  signal=+0.2276  position=flat  atr_scale=1.044
+2026-05-29 02:53:00  INFO        [QQQ] 진입 예약: signal=+0.2276  atr_scale=1.044 → 다음 bar open 진입
+2026-05-29 02:53:34  INFO      [heartbeat] 13:53 ET  QQQ: flat(0주)  일일누적=$24,205/49,581
+2026-05-29 02:54:00  INFO      [QQQ] bar 13:54 ET  signal=-0.1274  position=flat  atr_scale=1.044
+2026-05-29 02:54:00  INFO        [QQQ] 진입 계산: equity=$99,161.05  mid=$736.32  notional=$2479.03  qty_계산=3주  cash=$99,161.05  한도=$49,581
+2026-05-29 02:54:01  INFO      BUY 주문 제출: QQQ 3주  order_id=803dd1aa-4ca2-4104-bc59-8ab4b7b35b79
+2026-05-29 02:54:03  WARNING     [QQQ] API 지연: 브로커=2주 < 주문=3주 → 3주 기준 유지
+2026-05-29 02:54:03  INFO        [QQQ] ✅ ENTER: 3주  mid=$736.32 → 체결$736.34  슬리피지=+0.34bp  signal=+0.2276  로컬저점손절=N/A  일일누적=$26,414/49,581
+2026-05-29 02:54:35  INFO      [heartbeat] 13:54 ET  QQQ: long(3주)  일일누적=$26,414/48,476
+2026-05-29 02:55:00  INFO      [QQQ] bar 13:55 ET  signal=-0.0161  position=long  atr_scale=1.044
+2026-05-29 02:55:00  INFO        [QQQ] 3주 @ $736.34  현재 $736.39  PnL=+0.007%  stop=1.044%  partial=0.835%
+2026-05-29 02:55:35  INFO      [heartbeat] 13:55 ET  QQQ: long(3주)  일일누적=$26,414/48,476
+2026-05-29 02:56:00  INFO      [QQQ] bar 13:56 ET  signal=-0.0977  position=long  atr_scale=1.044
+2026-05-29 02:56:00  INFO        [QQQ] 3주 @ $736.34  현재 $736.19  PnL=-0.020%  stop=1.044%  partial=0.835%
+2026-05-29 02:56:35  INFO      [heartbeat] 13:56 ET  QQQ: long(3주)  일일누적=$26,414/48,476
+2026-05-29 02:57:00  INFO      [QQQ] bar 13:57 ET  signal=+0.0188  position=long  atr_scale=1.044
+2026-05-29 02:57:00  INFO        [QQQ] 3주 @ $736.34  현재 $736.14  PnL=-0.027%  stop=1.044%  partial=0.835%
+2026-05-29 02:57:35  INFO      [heartbeat] 13:57 ET  QQQ: long(3주)  일일누적=$26,414/48,476
+2026-05-29 02:58:00  INFO      [QQQ] bar 13:58 ET  signal=+0.0762  position=long  atr_scale=1.044
+2026-05-29 02:58:00  INFO        [QQQ] 3주 @ $736.34  현재 $736.01  PnL=-0.045%  stop=1.044%  partial=0.835%
+2026-05-29 02:58:36  INFO      [heartbeat] 13:58 ET  QQQ: long(3주)  일일누적=$26,414/48,476
+2026-05-29 02:59:00  INFO      [QQQ] bar 13:59 ET  signal=+0.2247  position=long  atr_scale=1.044
+2026-05-29 02:59:00  INFO        [QQQ] 3주 @ $736.34  현재 $735.90  PnL=-0.059%  stop=1.044%  partial=0.835%
+2026-05-29 02:59:36  INFO      [heartbeat] 13:59 ET  QQQ: long(3주)  일일누적=$26,414/48,476
+2026-05-29 03:00:00  INFO      [QQQ] bar 14:00 ET  signal=+0.2800  position=long  atr_scale=1.044
+2026-05-29 03:00:00  INFO        [QQQ] 3주 @ $736.34  현재 $736.05  PnL=-0.039%  stop=1.044%  partial=0.835%
+2026-05-29 03:00:36  INFO      [heartbeat] 14:00 ET  QQQ: long(3주)  일일누적=$26,414/48,476
+2026-05-29 03:01:00  INFO      [QQQ] bar 14:01 ET  signal=+0.4355  position=long  atr_scale=1.044
+2026-05-29 03:01:00  INFO        [QQQ] 3주 @ $736.34  현재 $735.83  PnL=-0.069%  stop=1.044%  partial=0.835%
+2026-05-29 03:01:36  INFO      [heartbeat] 14:01 ET  QQQ: long(3주)  일일누적=$26,414/48,476
+2026-05-29 03:02:00  INFO      [QQQ] bar 14:02 ET  signal=+0.4424  position=long  atr_scale=1.044
+2026-05-29 03:02:00  INFO        [QQQ] 3주 @ $736.34  현재 $735.91  PnL=-0.058%  stop=1.044%  partial=0.835%
+2026-05-29 03:02:37  INFO      [heartbeat] 14:02 ET  QQQ: long(3주)  일일누적=$26,414/48,476
+2026-05-29 03:03:00  INFO      [QQQ] bar 14:03 ET  signal=+0.4497  position=long  atr_scale=1.044
+2026-05-29 03:03:00  INFO        [QQQ] 3주 @ $736.34  현재 $736.12  PnL=-0.029%  stop=1.044%  partial=0.835%
+2026-05-29 03:03:37  INFO      [heartbeat] 14:03 ET  QQQ: long(3주)  일일누적=$26,414/48,476
+2026-05-29 03:04:00  INFO      [QQQ] bar 14:04 ET  signal=+0.5465  position=long  atr_scale=1.044
+2026-05-29 03:04:00  INFO        [QQQ] 3주 @ $736.34  현재 $736.31  PnL=-0.005%  stop=1.044%  partial=0.835%
+2026-05-29 03:04:37  INFO      [heartbeat] 14:04 ET  QQQ: long(3주)  일일누적=$26,414/48,476
+2026-05-29 03:05:00  INFO      [QQQ] bar 14:05 ET  signal=+0.2387  position=long  atr_scale=1.044
+2026-05-29 03:05:00  INFO        [QQQ] 3주 @ $736.34  현재 $736.44  PnL=+0.014%  stop=1.044%  partial=0.835%
+2026-05-29 03:05:37  INFO      [heartbeat] 14:05 ET  QQQ: long(3주)  일일누적=$26,414/48,476
+2026-05-29 03:06:00  INFO      [QQQ] bar 14:06 ET  signal=+0.2248  position=long  atr_scale=1.044
+2026-05-29 03:06:00  INFO        [QQQ] 3주 @ $736.34  현재 $736.43  PnL=+0.012%  stop=1.044%  partial=0.835%
+2026-05-29 03:06:37  INFO      [heartbeat] 14:06 ET  QQQ: long(3주)  일일누적=$26,414/48,476
+2026-05-29 03:07:00  INFO      [QQQ] bar 14:07 ET  signal=+0.2005  position=long  atr_scale=1.044
+2026-05-29 03:07:00  INFO        [QQQ] 3주 @ $736.34  현재 $736.27  PnL=-0.009%  stop=1.044%  partial=0.835%
+2026-05-29 03:07:38  INFO      [heartbeat] 14:07 ET  QQQ: long(3주)  일일누적=$26,414/48,476
+2026-05-29 03:08:00  INFO      [QQQ] bar 14:08 ET  signal=-0.0996  position=long  atr_scale=1.044
+2026-05-29 03:08:00  INFO        [QQQ] 3주 @ $736.34  현재 $736.27  PnL=-0.010%  stop=1.044%  partial=0.835%
+2026-05-29 03:08:38  INFO      [heartbeat] 14:08 ET  QQQ: long(3주)  일일누적=$26,414/48,476
+2026-05-29 03:09:00  INFO      [QQQ] bar 14:09 ET  signal=-0.2812  position=long  atr_scale=1.044
+2026-05-29 03:09:00  INFO        [QQQ] 3주 @ $736.34  현재 $736.17  PnL=-0.023%  stop=1.044%  partial=0.835%
+2026-05-29 03:09:00  INFO      포지션 청산 완료: QQQ
+2026-05-29 03:09:04  INFO        [QQQ] 🔴 신호소멸: 3주 @ mid$736.17 → 실체결$736.17  PnL=$-0.51  슬리피지=+0.00bp  portfolio=$99,160.46
+2026-05-29 03:09:38  INFO      [heartbeat] 14:09 ET  QQQ: flat(0주)  일일누적=$26,414/49,580
+2026-05-29 03:10:00  INFO      [QQQ] bar 14:10 ET  signal=-0.1324  position=flat  atr_scale=1.044
+2026-05-29 03:10:38  INFO      [heartbeat] 14:10 ET  QQQ: flat(0주)  일일누적=$26,414/49,580
+2026-05-29 03:11:00  INFO      [QQQ] bar 14:11 ET  signal=+0.1156  position=flat  atr_scale=1.044
+2026-05-29 03:11:39  INFO      [heartbeat] 14:11 ET  QQQ: flat(0주)  일일누적=$26,414/49,580
+2026-05-29 03:12:00  INFO      [QQQ] bar 14:12 ET  signal=-0.1402  position=flat  atr_scale=1.044
+2026-05-29 03:12:39  INFO      [heartbeat] 14:12 ET  QQQ: flat(0주)  일일누적=$26,414/49,580
+2026-05-29 03:13:00  INFO      [QQQ] bar 14:13 ET  signal=+0.0728  position=flat  atr_scale=1.044
+2026-05-29 03:13:39  INFO      [heartbeat] 14:13 ET  QQQ: flat(0주)  일일누적=$26,414/49,580
+2026-05-29 03:14:00  INFO      [QQQ] bar 14:14 ET  signal=-0.0842  position=flat  atr_scale=1.044
+2026-05-29 03:14:39  INFO      [heartbeat] 14:14 ET  QQQ: flat(0주)  일일누적=$26,414/49,580
+2026-05-29 03:15:00  INFO      [QQQ] bar 14:15 ET  signal=+0.0926  position=flat  atr_scale=1.044
+2026-05-29 03:15:39  INFO      [heartbeat] 14:15 ET  QQQ: flat(0주)  일일누적=$26,414/49,580
+2026-05-29 03:16:00  INFO      [QQQ] bar 14:16 ET  signal=-0.2063  position=flat  atr_scale=1.044
+2026-05-29 03:16:40  INFO      [heartbeat] 14:16 ET  QQQ: flat(0주)  일일누적=$26,414/49,580
+2026-05-29 03:17:00  INFO      [QQQ] bar 14:17 ET  signal=-0.2351  position=flat  atr_scale=1.044
+2026-05-29 03:17:40  INFO      [heartbeat] 14:17 ET  QQQ: flat(0주)  일일누적=$26,414/49,580
+2026-05-29 03:18:00  INFO      [QQQ] bar 14:18 ET  signal=-0.0421  position=flat  atr_scale=1.044
+2026-05-29 03:18:40  INFO      [heartbeat] 14:18 ET  QQQ: flat(0주)  일일누적=$26,414/49,580
+2026-05-29 03:19:00  INFO      [QQQ] bar 14:19 ET  signal=+0.0278  position=flat  atr_scale=1.044
+2026-05-29 03:19:40  INFO      [heartbeat] 14:19 ET  QQQ: flat(0주)  일일누적=$26,414/49,580
+2026-05-29 03:20:00  INFO      [QQQ] bar 14:20 ET  signal=-0.0681  position=flat  atr_scale=1.044
+2026-05-29 03:20:41  INFO      [heartbeat] 14:20 ET  QQQ: flat(0주)  일일누적=$26,414/49,580
+2026-05-29 03:21:00  INFO      [QQQ] bar 14:21 ET  signal=+0.1257  position=flat  atr_scale=1.044
+2026-05-29 03:21:41  INFO      [heartbeat] 14:21 ET  QQQ: flat(0주)  일일누적=$26,414/49,580
+2026-05-29 03:22:00  INFO      [QQQ] bar 14:22 ET  signal=-0.0300  position=flat  atr_scale=1.044
+2026-05-29 03:22:41  INFO      [heartbeat] 14:22 ET  QQQ: flat(0주)  일일누적=$26,414/49,580
+2026-05-29 03:23:00  INFO      [QQQ] bar 14:23 ET  signal=-0.0893  position=flat  atr_scale=1.044
+2026-05-29 03:23:41  INFO      [heartbeat] 14:23 ET  QQQ: flat(0주)  일일누적=$26,414/49,580
+2026-05-29 03:24:00  INFO      [QQQ] bar 14:24 ET  signal=+0.0846  position=flat  atr_scale=1.044
+2026-05-29 03:24:42  INFO      [heartbeat] 14:24 ET  QQQ: flat(0주)  일일누적=$26,414/49,580
+2026-05-29 03:25:00  INFO      [QQQ] bar 14:25 ET  signal=+0.2520  position=flat  atr_scale=1.044
+2026-05-29 03:25:00  INFO        [QQQ] 진입 예약: signal=+0.2520  atr_scale=1.044 → 다음 bar open 진입
+2026-05-29 03:25:42  INFO      [heartbeat] 14:25 ET  QQQ: flat(0주)  일일누적=$26,414/49,580
+2026-05-29 03:26:00  INFO      [QQQ] bar 14:26 ET  signal=-0.2323  position=flat  atr_scale=1.044
+2026-05-29 03:26:00  INFO        [QQQ] 진입 계산: equity=$99,160.46  mid=$736.12  notional=$2479.01  qty_계산=3주  cash=$99,160.46  한도=$49,580
+2026-05-29 03:26:01  INFO      BUY 주문 제출: QQQ 3주  order_id=f33b800e-3b48-4e78-85e0-c92a16bd0fab
+2026-05-29 03:26:03  WARNING     [QQQ] API 지연: 브로커=2주 < 주문=3주 → 3주 기준 유지
+2026-05-29 03:26:03  INFO        [QQQ] ✅ ENTER: 3주  mid=$736.12 → 체결$736.13  슬리피지=+0.20bp  signal=+0.2520  로컬저점손절=N/A  일일누적=$28,622/49,580
+2026-05-29 03:26:42  INFO      [heartbeat] 14:26 ET  QQQ: long(3주)  일일누적=$28,622/48,476
+2026-05-29 03:27:00  INFO      [QQQ] bar 14:27 ET  signal=-0.3410  position=long  atr_scale=1.044
+2026-05-29 03:27:00  INFO        [QQQ] 3주 @ $736.13  현재 $736.02  PnL=-0.014%  stop=1.044%  partial=0.835%
+2026-05-29 03:27:00  INFO      포지션 청산 완료: QQQ
+2026-05-29 03:27:01  INFO        [QQQ] 🔴 신호소멸: 3주 @ mid$736.02 → 실체결$736.02  PnL=$-0.32  슬리피지=+0.00bp  portfolio=$99,160.00
+2026-05-29 03:27:42  INFO      [heartbeat] 14:27 ET  QQQ: flat(0주)  일일누적=$28,622/49,580
+2026-05-29 03:28:00  INFO      [QQQ] bar 14:28 ET  signal=-0.1066  position=flat  atr_scale=1.044
+2026-05-29 03:28:42  INFO      [heartbeat] 14:28 ET  QQQ: flat(0주)  일일누적=$28,622/49,580
+2026-05-29 03:29:00  INFO      [QQQ] bar 14:29 ET  signal=-0.2129  position=flat  atr_scale=1.044
+2026-05-29 03:29:43  INFO      [heartbeat] 14:29 ET  QQQ: flat(0주)  일일누적=$28,622/49,580
+2026-05-29 03:30:00  INFO      [QQQ] bar 14:30 ET  signal=-0.3717  position=flat  atr_scale=1.044
+2026-05-29 03:30:43  INFO      [heartbeat] 14:30 ET  QQQ: flat(0주)  일일누적=$28,622/49,580
+2026-05-29 03:31:00  INFO      [QQQ] bar 14:31 ET  signal=-0.2155  position=flat  atr_scale=1.044
+2026-05-29 03:31:43  INFO      [heartbeat] 14:31 ET  QQQ: flat(0주)  일일누적=$28,622/49,580
+2026-05-29 03:32:00  INFO      [QQQ] bar 14:32 ET  signal=+0.2612  position=flat  atr_scale=1.044
+2026-05-29 03:32:00  INFO        [QQQ] 진입 예약: signal=+0.2612  atr_scale=1.044 → 다음 bar open 진입
+2026-05-29 03:32:43  INFO      [heartbeat] 14:32 ET  QQQ: flat(0주)  일일누적=$28,622/49,580
+2026-05-29 03:33:00  INFO      [QQQ] bar 14:33 ET  signal=-0.4838  position=flat  atr_scale=1.044
+2026-05-29 03:33:00  INFO        [QQQ] 진입 계산: equity=$99,160.00  mid=$735.73  notional=$2479.00  qty_계산=3주  cash=$99,160.00  한도=$49,580
+2026-05-29 03:33:01  INFO      BUY 주문 제출: QQQ 3주  order_id=9764c08f-415e-4217-8021-b3f14c422d72
+2026-05-29 03:33:03  INFO        [QQQ] ✅ ENTER: 3주  mid=$735.73 → 체결$735.76  슬리피지=+0.43bp  signal=+0.2612  로컬저점손절=N/A  일일누적=$30,830/49,580
+2026-05-29 03:33:44  INFO      [heartbeat] 14:33 ET  QQQ: long(3주)  일일누적=$30,830/48,476
+2026-05-29 03:34:00  INFO      [QQQ] bar 14:34 ET  signal=-0.1309  position=long  atr_scale=1.044
+2026-05-29 03:34:00  INFO        [QQQ] 3주 @ $735.76  현재 $735.72  PnL=-0.006%  stop=1.044%  partial=0.835%
+2026-05-29 03:34:00  INFO      포지션 청산 완료: QQQ
+2026-05-29 03:34:02  INFO        [QQQ] 🔴 신호소멸: 3주 @ mid$735.72 → 실체결$735.72  PnL=$-0.13  슬리피지=+0.00bp  portfolio=$99,159.80
+2026-05-29 03:34:44  INFO      [heartbeat] 14:34 ET  QQQ: flat(0주)  일일누적=$30,830/49,580
+2026-05-29 03:35:00  INFO      [QQQ] bar 14:35 ET  signal=-0.5746  position=flat  atr_scale=1.044
+2026-05-29 03:35:44  INFO      [heartbeat] 14:35 ET  QQQ: flat(0주)  일일누적=$30,830/49,580
+2026-05-29 03:36:00  INFO      [QQQ] bar 14:36 ET  signal=-0.2548  position=flat  atr_scale=1.044
+2026-05-29 03:36:44  INFO      [heartbeat] 14:36 ET  QQQ: flat(0주)  일일누적=$30,830/49,580
+2026-05-29 03:37:00  INFO      [QQQ] bar 14:37 ET  signal=-0.4497  position=flat  atr_scale=1.044
+2026-05-29 03:37:44  INFO      [heartbeat] 14:37 ET  QQQ: flat(0주)  일일누적=$30,830/49,580
+2026-05-29 03:38:00  INFO      [QQQ] bar 14:38 ET  signal=-0.2391  position=flat  atr_scale=1.044
+2026-05-29 03:38:45  INFO      [heartbeat] 14:38 ET  QQQ: flat(0주)  일일누적=$30,830/49,580
+2026-05-29 03:39:00  INFO      [QQQ] bar 14:39 ET  signal=-0.2609  position=flat  atr_scale=1.044
+2026-05-29 03:39:45  INFO      [heartbeat] 14:39 ET  QQQ: flat(0주)  일일누적=$30,830/49,580
+2026-05-29 03:40:00  INFO      [QQQ] bar 14:40 ET  signal=-0.2828  position=flat  atr_scale=1.044
+2026-05-29 03:40:45  INFO      [heartbeat] 14:40 ET  QQQ: flat(0주)  일일누적=$30,830/49,580
+2026-05-29 03:41:00  INFO      [QQQ] bar 14:41 ET  signal=-0.3565  position=flat  atr_scale=1.044
+2026-05-29 03:41:45  INFO      [heartbeat] 14:41 ET  QQQ: flat(0주)  일일누적=$30,830/49,580
+2026-05-29 03:42:00  INFO      [QQQ] bar 14:42 ET  signal=+0.2282  position=flat  atr_scale=1.044
+2026-05-29 03:42:00  INFO        [QQQ] 진입 예약: signal=+0.2282  atr_scale=1.044 → 다음 bar open 진입
+2026-05-29 03:42:46  INFO      [heartbeat] 14:42 ET  QQQ: flat(0주)  일일누적=$30,830/49,580
+2026-05-29 03:43:00  INFO      [QQQ] bar 14:43 ET  signal=-0.0290  position=flat  atr_scale=1.044
+2026-05-29 03:43:01  INFO        [QQQ] 진입 계산: equity=$99,159.80  mid=$735.63  notional=$2479.00  qty_계산=3주  cash=$99,159.80  한도=$49,580
+2026-05-29 03:43:01  INFO      BUY 주문 제출: QQQ 3주  order_id=61052ac7-c63e-4eee-a851-53da8d7714d9
+2026-05-29 03:43:03  WARNING     [QQQ] 포지션 API 미반영 (actual=0) — 주문 수량 3주 사용
+2026-05-29 03:43:03  INFO        [QQQ] ✅ ENTER: 3주  mid=$735.63 → 체결$735.64  슬리피지=+0.07bp  signal=+0.2282  로컬저점손절=N/A  일일누적=$33,037/49,580
+2026-05-29 03:43:46  INFO      [heartbeat] 14:43 ET  QQQ: long(3주)  일일누적=$33,037/48,476
+2026-05-29 03:44:00  INFO      [QQQ] bar 14:44 ET  signal=-0.1885  position=long  atr_scale=1.044
+2026-05-29 03:44:00  INFO        [QQQ] 3주 @ $735.64  현재 $735.40  PnL=-0.032%  stop=1.044%  partial=0.835%
+2026-05-29 03:44:00  INFO      포지션 청산 완료: QQQ
+2026-05-29 03:44:02  INFO        [QQQ] 🔴 신호소멸: 3주 @ mid$735.40 → 실체결$735.40  PnL=$-0.71  슬리피지=+0.00bp  portfolio=$99,159.11
+2026-05-29 03:44:46  INFO      [heartbeat] 14:44 ET  QQQ: flat(0주)  일일누적=$33,037/49,580
+2026-05-29 03:45:00  INFO      [QQQ] bar 14:45 ET  signal=+0.1566  position=flat  atr_scale=1.044
+2026-05-29 03:45:46  INFO      [heartbeat] 14:45 ET  QQQ: flat(0주)  일일누적=$33,037/49,580
+2026-05-29 03:46:00  INFO      [QQQ] bar 14:46 ET  signal=-0.1121  position=flat  atr_scale=1.044
+2026-05-29 03:46:47  INFO      [heartbeat] 14:46 ET  QQQ: flat(0주)  일일누적=$33,037/49,580
+2026-05-29 03:47:00  INFO      [QQQ] bar 14:47 ET  signal=-0.3715  position=flat  atr_scale=1.044
+2026-05-29 03:47:47  INFO      [heartbeat] 14:47 ET  QQQ: flat(0주)  일일누적=$33,037/49,580
+2026-05-29 03:48:00  INFO      [QQQ] bar 14:48 ET  signal=-0.2152  position=flat  atr_scale=1.044
+2026-05-29 03:48:47  INFO      [heartbeat] 14:48 ET  QQQ: flat(0주)  일일누적=$33,037/49,580
+2026-05-29 03:49:00  INFO      [QQQ] bar 14:49 ET  signal=-0.1515  position=flat  atr_scale=1.044
+2026-05-29 03:49:47  INFO      [heartbeat] 14:49 ET  QQQ: flat(0주)  일일누적=$33,037/49,580
+2026-05-29 03:50:00  INFO      [QQQ] bar 14:50 ET  signal=-0.2480  position=flat  atr_scale=1.044
+2026-05-29 03:50:48  INFO      [heartbeat] 14:50 ET  QQQ: flat(0주)  일일누적=$33,037/49,580
+2026-05-29 03:51:00  INFO      [QQQ] bar 14:51 ET  signal=-0.2022  position=flat  atr_scale=1.044
+2026-05-29 03:51:48  INFO      [heartbeat] 14:51 ET  QQQ: flat(0주)  일일누적=$33,037/49,580
+2026-05-29 03:52:00  INFO      [QQQ] bar 14:52 ET  signal=+0.0917  position=flat  atr_scale=1.044
+2026-05-29 03:52:48  INFO      [heartbeat] 14:52 ET  QQQ: flat(0주)  일일누적=$33,037/49,580
+2026-05-29 03:53:00  INFO      [QQQ] bar 14:53 ET  signal=+0.1581  position=flat  atr_scale=1.044
+2026-05-29 03:53:48  INFO      [heartbeat] 14:53 ET  QQQ: flat(0주)  일일누적=$33,037/49,580
+2026-05-29 03:54:00  INFO      [QQQ] bar 14:54 ET  signal=+0.2305  position=flat  atr_scale=1.044
+2026-05-29 03:54:00  INFO        [QQQ] 진입 예약: signal=+0.2305  atr_scale=1.044 → 다음 bar open 진입
+2026-05-29 03:54:49  INFO      [heartbeat] 14:54 ET  QQQ: flat(0주)  일일누적=$33,037/49,580
+2026-05-29 03:55:00  INFO      [QQQ] bar 14:55 ET  signal=-0.4805  position=flat  atr_scale=1.044
+2026-05-29 03:55:00  INFO        [QQQ] 진입 계산: equity=$99,159.11  mid=$735.89  notional=$2478.98  qty_계산=3주  cash=$99,159.11  한도=$49,580
+2026-05-29 03:55:01  INFO      BUY 주문 제출: QQQ 3주  order_id=439e620a-98fb-4113-b693-39d60feecfc1
+2026-05-29 03:55:03  INFO        [QQQ] ✅ ENTER: 3주  mid=$735.89 → 체결$735.92  슬리피지=+0.34bp  signal=+0.2305  로컬저점손절=N/A  일일누적=$35,245/49,580
+2026-05-29 03:55:49  INFO      [heartbeat] 14:55 ET  QQQ: long(3주)  일일누적=$35,245/48,476
+2026-05-29 03:56:00  INFO      [QQQ] bar 14:56 ET  signal=-0.8303  position=long  atr_scale=1.044
+2026-05-29 03:56:00  INFO        [QQQ] 3주 @ $735.92  현재 $735.93  PnL=+0.001%  stop=0.522%  partial=0.418% [EOD⚡]
+2026-05-29 03:56:00  INFO      포지션 청산 완료: QQQ
+2026-05-29 03:56:02  INFO        [QQQ] ✅ 신호소멸: 3주 @ mid$735.93 → 실체결$735.93  PnL=$+0.03  슬리피지=+0.00bp  portfolio=$99,159.11
+2026-05-29 03:56:49  INFO      [heartbeat] 14:56 ET  QQQ: flat(0주)  일일누적=$35,245/49,580
+2026-05-29 03:57:00  INFO      [QQQ] bar 14:57 ET  signal=-0.7017  position=flat  atr_scale=1.044
+2026-05-29 03:57:49  INFO      [heartbeat] 14:57 ET  QQQ: flat(0주)  일일누적=$35,245/49,580
+2026-05-29 03:58:00  INFO      [QQQ] bar 14:58 ET  signal=-0.4004  position=flat  atr_scale=1.044
+2026-05-29 03:58:50  INFO      [heartbeat] 14:58 ET  QQQ: flat(0주)  일일누적=$35,245/49,580
+2026-05-29 03:59:00  INFO      [QQQ] bar 14:59 ET  signal=-0.3391  position=flat  atr_scale=1.044
+2026-05-29 03:59:50  INFO      [heartbeat] 14:59 ET  QQQ: flat(0주)  일일누적=$35,245/49,580
+2026-05-29 04:00:00  INFO      [QQQ] bar 15:00 ET  signal=-0.0941  position=flat  atr_scale=1.044
+2026-05-29 04:00:50  INFO      [heartbeat] 15:00 ET  QQQ: flat(0주)  일일누적=$35,245/49,580
+2026-05-29 04:01:00  INFO      [QQQ] bar 15:01 ET  signal=-0.0740  position=flat  atr_scale=1.044
+2026-05-29 04:01:50  INFO      [heartbeat] 15:01 ET  QQQ: flat(0주)  일일누적=$35,245/49,580
+2026-05-29 04:02:00  INFO      [QQQ] bar 15:02 ET  signal=-0.0920  position=flat  atr_scale=1.044
+2026-05-29 04:02:51  INFO      [heartbeat] 15:02 ET  QQQ: flat(0주)  일일누적=$35,245/49,580
+2026-05-29 04:03:00  INFO      [QQQ] bar 15:03 ET  signal=+0.6034  position=flat  atr_scale=1.044
+2026-05-29 04:03:00  INFO        [QQQ] 진입 예약: signal=+0.6034  atr_scale=1.044 → 다음 bar open 진입
+2026-05-29 04:03:51  INFO      [heartbeat] 15:03 ET  QQQ: flat(0주)  일일누적=$35,245/49,580
+2026-05-29 04:04:00  INFO      [QQQ] bar 15:04 ET  signal=+0.1425  position=flat  atr_scale=1.044
+2026-05-29 04:04:00  INFO        [QQQ] 진입 계산: equity=$99,159.11  mid=$735.50  notional=$2478.98  qty_계산=3주  cash=$99,159.11  한도=$49,580
+2026-05-29 04:04:01  INFO      BUY 주문 제출: QQQ 3주  order_id=10051e2d-e369-4340-b3bf-653a1fb92015
+2026-05-29 04:04:03  WARNING     [QQQ] API 지연: 브로커=2주 < 주문=3주 → 3주 기준 유지
+2026-05-29 04:04:03  INFO        [QQQ] ✅ ENTER: 3주  mid=$735.50 → 체결$735.53  슬리피지=+0.41bp  signal=+0.6034  로컬저점손절=N/A  일일누적=$37,451/49,580
+2026-05-29 04:04:51  INFO      [heartbeat] 15:04 ET  QQQ: long(3주)  일일누적=$37,451/48,476
+2026-05-29 04:05:00  INFO      [QQQ] bar 15:05 ET  signal=-0.0034  position=long  atr_scale=1.044
+2026-05-29 04:05:00  INFO        [QQQ] 3주 @ $735.53  현재 $735.61  PnL=+0.011%  stop=0.522%  partial=0.418% [EOD⚡]
+2026-05-29 04:05:51  INFO      [heartbeat] 15:05 ET  QQQ: long(3주)  일일누적=$37,451/48,476
+2026-05-29 04:06:00  INFO      [QQQ] bar 15:06 ET  signal=+0.4426  position=long  atr_scale=1.044
+2026-05-29 04:06:00  INFO        [QQQ] 3주 @ $735.53  현재 $735.71  PnL=+0.024%  stop=0.522%  partial=0.418% [EOD⚡]
+2026-05-29 04:06:52  INFO      [heartbeat] 15:06 ET  QQQ: long(3주)  일일누적=$37,451/48,476
+2026-05-29 04:07:00  INFO      [QQQ] bar 15:07 ET  signal=+0.2826  position=long  atr_scale=1.044
+2026-05-29 04:07:00  INFO        [QQQ] 3주 @ $735.53  현재 $735.76  PnL=+0.031%  stop=0.522%  partial=0.418% [EOD⚡]
+2026-05-29 04:07:52  INFO      [heartbeat] 15:07 ET  QQQ: long(3주)  일일누적=$37,451/48,476
+2026-05-29 04:08:00  INFO      [QQQ] bar 15:08 ET  signal=-0.1116  position=long  atr_scale=1.044
+2026-05-29 04:08:00  INFO        [QQQ] 3주 @ $735.53  현재 $735.75  PnL=+0.029%  stop=0.522%  partial=0.418% [EOD⚡]
+2026-05-29 04:08:00  INFO      포지션 청산 완료: QQQ
+2026-05-29 04:08:04  INFO        [QQQ] ✅ 신호소멸: 3주 @ mid$735.75 → 실체결$735.75  PnL=$+0.65  슬리피지=+0.00bp  portfolio=$99,159.77
+2026-05-29 04:08:52  INFO      [heartbeat] 15:08 ET  QQQ: flat(0주)  일일누적=$37,451/49,580
+2026-05-29 04:09:00  INFO      [QQQ] bar 15:09 ET  signal=-0.1956  position=flat  atr_scale=1.044
+2026-05-29 04:09:52  INFO      [heartbeat] 15:09 ET  QQQ: flat(0주)  일일누적=$37,451/49,580
+2026-05-29 04:10:00  INFO      [QQQ] bar 15:10 ET  signal=+0.1714  position=flat  atr_scale=1.044
+2026-05-29 04:10:53  INFO      [heartbeat] 15:10 ET  QQQ: flat(0주)  일일누적=$37,451/49,580
+2026-05-29 04:11:00  INFO      [QQQ] bar 15:11 ET  signal=-0.1158  position=flat  atr_scale=1.044
+2026-05-29 04:11:53  INFO      [heartbeat] 15:11 ET  QQQ: flat(0주)  일일누적=$37,451/49,580
+2026-05-29 04:12:00  INFO      [QQQ] bar 15:12 ET  signal=-0.0728  position=flat  atr_scale=1.044
+2026-05-29 04:12:53  INFO      [heartbeat] 15:12 ET  QQQ: flat(0주)  일일누적=$37,451/49,580
+2026-05-29 04:13:00  INFO      [QQQ] bar 15:13 ET  signal=+0.0638  position=flat  atr_scale=1.044
+2026-05-29 04:13:53  INFO      [heartbeat] 15:13 ET  QQQ: flat(0주)  일일누적=$37,451/49,580
+2026-05-29 04:14:00  INFO      [QQQ] bar 15:14 ET  signal=+0.0949  position=flat  atr_scale=1.044
+2026-05-29 04:14:54  INFO      [heartbeat] 15:14 ET  QQQ: flat(0주)  일일누적=$37,451/49,580
+2026-05-29 04:15:00  INFO      [QQQ] bar 15:15 ET  signal=+0.1373  position=flat  atr_scale=1.044
+2026-05-29 04:15:54  INFO      [heartbeat] 15:15 ET  QQQ: flat(0주)  일일누적=$37,451/49,580
+2026-05-29 04:16:00  INFO      [QQQ] bar 15:16 ET  signal=+0.1162  position=flat  atr_scale=1.044
+2026-05-29 04:16:54  INFO      [heartbeat] 15:16 ET  QQQ: flat(0주)  일일누적=$37,451/49,580
+2026-05-29 04:17:00  INFO      [QQQ] bar 15:17 ET  signal=-0.1530  position=flat  atr_scale=1.044
+2026-05-29 04:17:54  INFO      [heartbeat] 15:17 ET  QQQ: flat(0주)  일일누적=$37,451/49,580
+2026-05-29 04:18:00  INFO      [QQQ] bar 15:18 ET  signal=-0.2803  position=flat  atr_scale=1.044
+2026-05-29 04:18:54  INFO      [heartbeat] 15:18 ET  QQQ: flat(0주)  일일누적=$37,451/49,580
+2026-05-29 04:19:00  INFO      [QQQ] bar 15:19 ET  signal=-0.3648  position=flat  atr_scale=1.044
+2026-05-29 04:19:55  INFO      [heartbeat] 15:19 ET  QQQ: flat(0주)  일일누적=$37,451/49,580
+2026-05-29 04:20:00  INFO      [QQQ] bar 15:20 ET  signal=-0.1438  position=flat  atr_scale=1.044
+2026-05-29 04:20:55  INFO      [heartbeat] 15:20 ET  QQQ: flat(0주)  일일누적=$37,451/49,580
+2026-05-29 04:21:00  INFO      [QQQ] bar 15:21 ET  signal=-0.1420  position=flat  atr_scale=1.044
+2026-05-29 04:21:55  INFO      [heartbeat] 15:21 ET  QQQ: flat(0주)  일일누적=$37,451/49,580
+2026-05-29 04:22:00  INFO      [QQQ] bar 15:22 ET  signal=-0.1225  position=flat  atr_scale=1.044
+2026-05-29 04:22:55  INFO      [heartbeat] 15:22 ET  QQQ: flat(0주)  일일누적=$37,451/49,580
+2026-05-29 04:23:00  INFO      [QQQ] bar 15:23 ET  signal=+0.2656  position=flat  atr_scale=1.044
+2026-05-29 04:23:00  INFO        [QQQ] 진입 예약: signal=+0.2656  atr_scale=1.044 → 다음 bar open 진입
+2026-05-29 04:23:55  INFO      [heartbeat] 15:23 ET  QQQ: flat(0주)  일일누적=$37,451/49,580
+2026-05-29 04:24:00  INFO      [QQQ] bar 15:24 ET  signal=+0.1717  position=flat  atr_scale=1.044
+2026-05-29 04:24:00  INFO        [QQQ] 진입 계산: equity=$99,159.77  mid=$735.14  notional=$2478.99  qty_계산=3주  cash=$99,159.77  한도=$49,580
+2026-05-29 04:24:01  INFO      BUY 주문 제출: QQQ 3주  order_id=27dd0669-0031-4e52-a1ed-4d6c52b18c4d
+2026-05-29 04:24:03  INFO        [QQQ] ✅ ENTER: 3주  mid=$735.14 → 체결$735.15  슬리피지=+0.07bp  signal=+0.2656  로컬저점손절=N/A  일일누적=$39,657/49,580
+2026-05-29 04:24:56  INFO      [heartbeat] 15:24 ET  QQQ: long(3주)  일일누적=$39,657/48,477
+2026-05-29 04:25:00  INFO      [QQQ] bar 15:25 ET  signal=-0.0675  position=long  atr_scale=1.044
+2026-05-29 04:25:00  INFO        [QQQ] 3주 @ $735.15  현재 $735.37  PnL=+0.029%  stop=0.522%  partial=0.418% [EOD⚡]
+2026-05-29 04:25:56  INFO      [heartbeat] 15:25 ET  QQQ: long(3주)  일일누적=$39,657/48,477
+2026-05-29 04:26:00  INFO      [QQQ] bar 15:26 ET  signal=+0.0549  position=long  atr_scale=1.044
+2026-05-29 04:26:00  INFO        [QQQ] 3주 @ $735.15  현재 $735.50  PnL=+0.048%  stop=0.522%  partial=0.418% [EOD⚡]
+2026-05-29 04:26:56  INFO      [heartbeat] 15:26 ET  QQQ: long(3주)  일일누적=$39,657/48,477
+2026-05-29 04:27:00  INFO      [QQQ] bar 15:27 ET  signal=-0.0058  position=long  atr_scale=1.044
+2026-05-29 04:27:00  INFO        [QQQ] 3주 @ $735.15  현재 $735.47  PnL=+0.043%  stop=0.522%  partial=0.418% [EOD⚡]
+2026-05-29 04:27:56  INFO      [heartbeat] 15:27 ET  QQQ: long(3주)  일일누적=$39,657/48,477
+2026-05-29 04:28:00  INFO      [QQQ] bar 15:28 ET  signal=+0.1001  position=long  atr_scale=1.044
+2026-05-29 04:28:00  INFO        [QQQ] 3주 @ $735.15  현재 $735.67  PnL=+0.071%  stop=0.522%  partial=0.418% [EOD⚡]
+2026-05-29 04:28:57  INFO      [heartbeat] 15:28 ET  QQQ: long(3주)  일일누적=$39,657/48,477
+2026-05-29 04:29:00  INFO      [QQQ] bar 15:29 ET  signal=+0.2006  position=long  atr_scale=1.044
+2026-05-29 04:29:00  INFO        [QQQ] 3주 @ $735.15  현재 $735.68  PnL=+0.072%  stop=0.522%  partial=0.418% [EOD⚡]
+2026-05-29 04:29:57  INFO      [heartbeat] 15:29 ET  QQQ: long(3주)  일일누적=$39,657/48,477
+2026-05-29 04:30:00  INFO      [QQQ] bar 15:30 ET  signal=-0.1437  position=long  atr_scale=1.044
+2026-05-29 04:30:00  INFO        [QQQ] 3주 @ $735.15  현재 $735.65  PnL=+0.069%  stop=0.522%  partial=0.418% [EOD⚡]
+2026-05-29 04:30:00  INFO      포지션 청산 완료: QQQ
+2026-05-29 04:30:02  INFO        [QQQ] ✅ 신호소멸: 3주 @ mid$735.65 → 실체결$735.65  PnL=$+1.51  슬리피지=+0.00bp  portfolio=$99,161.14
+2026-05-29 04:30:57  INFO      [heartbeat] 15:30 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 04:31:00  INFO      [QQQ] bar 15:31 ET  signal=+0.2820  position=flat  atr_scale=1.044
+2026-05-29 04:31:57  INFO      [heartbeat] 15:31 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 04:32:00  INFO      [QQQ] bar 15:32 ET  signal=-0.1276  position=flat  atr_scale=1.044
+2026-05-29 04:32:58  INFO      [heartbeat] 15:32 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 04:33:00  INFO      [QQQ] bar 15:33 ET  signal=-0.0803  position=flat  atr_scale=1.044
+2026-05-29 04:33:58  INFO      [heartbeat] 15:33 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 04:34:00  INFO      [QQQ] bar 15:34 ET  signal=-0.2071  position=flat  atr_scale=1.044
+2026-05-29 04:34:58  INFO      [heartbeat] 15:34 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 04:35:00  INFO      [QQQ] bar 15:35 ET  signal=-0.1819  position=flat  atr_scale=1.044
+2026-05-29 04:35:59  INFO      [heartbeat] 15:35 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 04:36:00  INFO      [QQQ] bar 15:36 ET  signal=-0.3039  position=flat  atr_scale=1.044
+2026-05-29 04:36:59  INFO      [heartbeat] 15:36 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 04:37:00  INFO      [QQQ] bar 15:37 ET  signal=-0.4902  position=flat  atr_scale=1.044
+2026-05-29 04:37:59  INFO      [heartbeat] 15:37 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 04:38:00  INFO      [QQQ] bar 15:38 ET  signal=-0.5446  position=flat  atr_scale=1.044
+2026-05-29 04:39:00  INFO      [heartbeat] 15:39 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 04:39:00  INFO      [QQQ] bar 15:39 ET  signal=-0.0492  position=flat  atr_scale=1.044
+2026-05-29 04:40:00  INFO      [QQQ] bar 15:40 ET  signal=+0.1868  position=flat  atr_scale=1.044
+2026-05-29 04:40:00  INFO      [heartbeat] 15:40 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 04:41:00  INFO      [QQQ] bar 15:41 ET  signal=-0.1141  position=flat  atr_scale=1.044
+2026-05-29 04:41:00  INFO      [heartbeat] 15:41 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 04:42:00  INFO      [QQQ] bar 15:42 ET  signal=-0.0255  position=flat  atr_scale=1.044
+2026-05-29 04:42:00  INFO      [heartbeat] 15:42 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 04:43:00  INFO      [QQQ] bar 15:43 ET  signal=-0.1294  position=flat  atr_scale=1.044
+2026-05-29 04:43:01  INFO      [heartbeat] 15:43 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 04:44:00  INFO      [QQQ] bar 15:44 ET  signal=-0.0366  position=flat  atr_scale=1.044
+2026-05-29 04:44:01  INFO      [heartbeat] 15:44 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 04:45:00  INFO      [QQQ] bar 15:45 ET  signal=-0.0041  position=flat  atr_scale=1.044
+2026-05-29 04:45:01  INFO      [heartbeat] 15:45 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 04:46:00  INFO      [QQQ] bar 15:46 ET  signal=+0.2261  position=flat  atr_scale=1.044
+2026-05-29 04:46:01  INFO      [heartbeat] 15:46 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 04:47:00  INFO      [QQQ] bar 15:47 ET  signal=+0.0416  position=flat  atr_scale=1.044
+2026-05-29 04:47:02  INFO      [heartbeat] 15:47 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 04:48:00  INFO      [QQQ] bar 15:48 ET  signal=+0.1297  position=flat  atr_scale=1.044
+2026-05-29 04:48:02  INFO      [heartbeat] 15:48 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 04:49:00  INFO      [QQQ] bar 15:49 ET  signal=+0.0335  position=flat  atr_scale=1.044
+2026-05-29 04:49:02  INFO      [heartbeat] 15:49 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 04:50:00  INFO      [QQQ] bar 15:50 ET  signal=-0.3905  position=flat  atr_scale=1.044
+2026-05-29 04:50:02  INFO      [heartbeat] 15:50 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 04:51:00  INFO      [QQQ] bar 15:51 ET  signal=-0.3712  position=flat  atr_scale=1.044
+2026-05-29 04:51:03  INFO      [heartbeat] 15:51 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 04:52:00  INFO      [QQQ] bar 15:52 ET  signal=-0.3627  position=flat  atr_scale=1.044
+2026-05-29 04:52:03  INFO      [heartbeat] 15:52 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 04:53:00  INFO      [QQQ] bar 15:53 ET  signal=-0.2450  position=flat  atr_scale=1.044
+2026-05-29 04:53:03  INFO      [heartbeat] 15:53 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 04:54:00  INFO      [QQQ] bar 15:54 ET  signal=-0.2638  position=flat  atr_scale=1.044
+2026-05-29 04:54:03  INFO      [heartbeat] 15:54 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 04:55:00  INFO      =================================================================
+2026-05-29 04:55:00  INFO      ✅ [2026-05-28] 일별 손익 요약
+2026-05-29 04:55:00  INFO        시작 equity : $   99,143.56
+2026-05-29 04:55:00  INFO        최종 equity : $   99,161.14
+2026-05-29 04:55:00  INFO        당일 PnL    : $      +17.58  (+0.018%)
+2026-05-29 04:55:00  INFO      =================================================================
+2026-05-29 04:55:00  INFO      [reconcile] Alpaca 실제 체결 기준 CSV 정산 시작...
+2026-05-29 04:55:00  INFO      [reconcile] ✅ 정산 완료: 36건 수정 | 총 PnL=$+17.58 | 거래 18건 | 승률=61%
+2026-05-29 04:55:00  INFO        [chart] QQQ 2026-05-28 PNG 생성 중...
+2026-05-29 04:55:04  INFO      [heartbeat] 15:55 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 04:56:04  INFO      [heartbeat] 15:56 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 04:57:04  INFO      [heartbeat] 15:57 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 04:58:04  INFO      [heartbeat] 15:58 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 04:59:05  INFO      [heartbeat] 15:59 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 05:00:05  INFO      [heartbeat] 16:00 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 05:01:05  INFO      [heartbeat] 16:01 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 05:02:05  INFO      [heartbeat] 16:02 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 05:03:06  INFO      [heartbeat] 16:03 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 05:04:06  INFO      [heartbeat] 16:04 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 05:05:06  INFO      [heartbeat] 16:05 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 05:06:07  INFO      [heartbeat] 16:06 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 05:07:07  INFO      [heartbeat] 16:07 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 05:08:07  INFO      [heartbeat] 16:08 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 05:09:07  INFO      [heartbeat] 16:09 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 05:10:08  INFO      [heartbeat] 16:10 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 05:11:08  INFO      [heartbeat] 16:11 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 05:12:08  INFO      [heartbeat] 16:12 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 05:13:08  INFO      [heartbeat] 16:13 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 05:14:09  INFO      [heartbeat] 16:14 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 05:15:09  INFO      [heartbeat] 16:15 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 05:16:09  INFO      [heartbeat] 16:16 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 05:17:10  INFO      [heartbeat] 16:17 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 05:18:10  INFO      [heartbeat] 16:18 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 05:19:10  INFO      [heartbeat] 16:19 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 05:20:10  INFO      [heartbeat] 16:20 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 05:21:11  INFO      [heartbeat] 16:21 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 05:22:11  INFO      [heartbeat] 16:22 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 05:23:11  INFO      [heartbeat] 16:23 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 05:24:11  INFO      [heartbeat] 16:24 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 05:25:12  INFO      [heartbeat] 16:25 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 05:26:12  INFO      [heartbeat] 16:26 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 05:27:12  INFO      [heartbeat] 16:27 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 05:28:13  INFO      [heartbeat] 16:28 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 05:29:13  INFO      [heartbeat] 16:29 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 05:30:13  INFO      [heartbeat] 16:30 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 05:31:13  INFO      [heartbeat] 16:31 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 05:32:14  INFO      [heartbeat] 16:32 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 05:33:14  INFO      [heartbeat] 16:33 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 05:34:14  INFO      [heartbeat] 16:34 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 05:35:15  INFO      [heartbeat] 16:35 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 05:36:15  INFO      [heartbeat] 16:36 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 05:37:16  INFO      [heartbeat] 16:37 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 05:38:16  INFO      [heartbeat] 16:38 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 05:39:16  INFO      [heartbeat] 16:39 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 05:40:16  INFO      [heartbeat] 16:40 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 05:41:17  INFO      [heartbeat] 16:41 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 05:42:17  INFO      [heartbeat] 16:42 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 05:43:17  INFO      [heartbeat] 16:43 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 05:44:18  INFO      [heartbeat] 16:44 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 05:45:18  INFO      [heartbeat] 16:45 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 05:46:18  INFO      [heartbeat] 16:46 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 05:47:18  INFO      [heartbeat] 16:47 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 05:48:19  INFO      [heartbeat] 16:48 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 05:49:19  INFO      [heartbeat] 16:49 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 05:50:19  INFO      [heartbeat] 16:50 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 05:51:20  INFO      [heartbeat] 16:51 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 05:52:20  INFO      [heartbeat] 16:52 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 05:53:20  INFO      [heartbeat] 16:53 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 05:54:21  INFO      [heartbeat] 16:54 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 05:55:21  INFO      [heartbeat] 16:55 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 05:56:21  INFO      [heartbeat] 16:56 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 05:57:21  INFO      [heartbeat] 16:57 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 05:58:22  INFO      [heartbeat] 16:58 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 05:59:22  INFO      [heartbeat] 16:59 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 06:00:22  INFO      [heartbeat] 17:00 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 06:01:23  INFO      [heartbeat] 17:01 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 06:02:23  INFO      [heartbeat] 17:02 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 06:03:23  INFO      [heartbeat] 17:03 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 06:04:23  INFO      [heartbeat] 17:04 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 06:05:24  INFO      [heartbeat] 17:05 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 06:06:24  INFO      [heartbeat] 17:06 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 06:07:24  INFO      [heartbeat] 17:07 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 06:08:25  INFO      [heartbeat] 17:08 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 06:09:25  INFO      [heartbeat] 17:09 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 06:10:25  INFO      [heartbeat] 17:10 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 06:11:26  INFO      [heartbeat] 17:11 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 06:12:26  INFO      [heartbeat] 17:12 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 06:13:26  INFO      [heartbeat] 17:13 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 06:14:27  INFO      [heartbeat] 17:14 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 06:15:27  INFO      [heartbeat] 17:15 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 06:16:27  INFO      [heartbeat] 17:16 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 06:17:28  INFO      [heartbeat] 17:17 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 06:18:28  INFO      [heartbeat] 17:18 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 06:19:28  INFO      [heartbeat] 17:19 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 06:20:28  INFO      [heartbeat] 17:20 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 06:21:29  INFO      [heartbeat] 17:21 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 06:22:29  INFO      [heartbeat] 17:22 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 06:23:29  INFO      [heartbeat] 17:23 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 06:24:30  INFO      [heartbeat] 17:24 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 06:25:30  INFO      [heartbeat] 17:25 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 06:26:30  INFO      [heartbeat] 17:26 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 06:27:31  INFO      [heartbeat] 17:27 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 06:28:31  INFO      [heartbeat] 17:28 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 06:29:31  INFO      [heartbeat] 17:29 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 06:30:32  INFO      [heartbeat] 17:30 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 06:31:32  INFO      [heartbeat] 17:31 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 06:32:32  INFO      [heartbeat] 17:32 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 06:33:33  INFO      [heartbeat] 17:33 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 06:34:33  INFO      [heartbeat] 17:34 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 06:35:33  INFO      [heartbeat] 17:35 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 06:36:33  INFO      [heartbeat] 17:36 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 06:37:34  INFO      [heartbeat] 17:37 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 06:38:35  INFO      [heartbeat] 17:38 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 06:39:35  INFO      [heartbeat] 17:39 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 06:40:35  INFO      [heartbeat] 17:40 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 06:41:35  INFO      [heartbeat] 17:41 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 06:42:36  INFO      [heartbeat] 17:42 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 06:43:36  INFO      [heartbeat] 17:43 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 06:44:36  INFO      [heartbeat] 17:44 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 06:45:37  INFO      [heartbeat] 17:45 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 06:46:37  INFO      [heartbeat] 17:46 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 06:47:37  INFO      [heartbeat] 17:47 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 06:48:38  INFO      [heartbeat] 17:48 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 06:49:39  INFO      [heartbeat] 17:49 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 06:50:40  INFO      [heartbeat] 17:50 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 06:51:40  INFO      [heartbeat] 17:51 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 06:52:41  INFO      [heartbeat] 17:52 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 06:53:42  INFO      [heartbeat] 17:53 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 06:54:43  INFO      [heartbeat] 17:54 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 06:55:43  INFO      [heartbeat] 17:55 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 06:56:43  INFO      [heartbeat] 17:56 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 06:57:44  INFO      [heartbeat] 17:57 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 06:58:44  INFO      [heartbeat] 17:58 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 06:59:44  INFO      [heartbeat] 17:59 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 07:00:45  INFO      [heartbeat] 18:00 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 07:01:45  INFO      [heartbeat] 18:01 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 07:02:45  INFO      [heartbeat] 18:02 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 07:03:45  INFO      [heartbeat] 18:03 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 07:04:46  INFO      [heartbeat] 18:04 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 07:05:46  INFO      [heartbeat] 18:05 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 07:06:46  INFO      [heartbeat] 18:06 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 07:07:46  INFO      [heartbeat] 18:07 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 07:08:47  INFO      [heartbeat] 18:08 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 07:09:47  INFO      [heartbeat] 18:09 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 07:10:47  INFO      [heartbeat] 18:10 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 07:11:48  INFO      [heartbeat] 18:11 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 07:12:48  INFO      [heartbeat] 18:12 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 07:13:48  INFO      [heartbeat] 18:13 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 07:14:49  INFO      [heartbeat] 18:14 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 07:15:49  INFO      [heartbeat] 18:15 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 07:16:49  INFO      [heartbeat] 18:16 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 07:17:49  INFO      [heartbeat] 18:17 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 07:18:50  INFO      [heartbeat] 18:18 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 07:19:50  INFO      [heartbeat] 18:19 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 07:20:51  INFO      [heartbeat] 18:20 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 07:21:51  INFO      [heartbeat] 18:21 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 07:22:52  INFO      [heartbeat] 18:22 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 07:23:53  INFO      [heartbeat] 18:23 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 07:24:54  INFO      [heartbeat] 18:24 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 07:25:54  INFO      [heartbeat] 18:25 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 07:26:55  INFO      [heartbeat] 18:26 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 07:27:55  INFO      [heartbeat] 18:27 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 07:28:55  INFO      [heartbeat] 18:28 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 07:29:56  INFO      [heartbeat] 18:29 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 07:30:56  INFO      [heartbeat] 18:30 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 07:31:56  INFO      [heartbeat] 18:31 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 07:32:56  INFO      [heartbeat] 18:32 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 07:33:57  INFO      [heartbeat] 18:33 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 07:34:57  INFO      [heartbeat] 18:34 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 07:35:57  INFO      [heartbeat] 18:35 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 07:36:58  INFO      [heartbeat] 18:36 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 07:37:58  INFO      [heartbeat] 18:37 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 07:38:58  INFO      [heartbeat] 18:38 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 07:39:59  INFO      [heartbeat] 18:39 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 07:41:00  INFO      [heartbeat] 18:41 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 07:42:00  INFO      [heartbeat] 18:42 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 07:43:00  INFO      [heartbeat] 18:43 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 07:44:00  INFO      [heartbeat] 18:44 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 07:45:01  INFO      [heartbeat] 18:45 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 07:46:01  INFO      [heartbeat] 18:46 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 07:47:01  INFO      [heartbeat] 18:47 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 07:48:02  INFO      [heartbeat] 18:48 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 07:49:02  INFO      [heartbeat] 18:49 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 07:50:03  INFO      [heartbeat] 18:50 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 07:51:03  INFO      [heartbeat] 18:51 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 07:52:04  INFO      [heartbeat] 18:52 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 07:53:05  INFO      [heartbeat] 18:53 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 07:54:06  INFO      [heartbeat] 18:54 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 07:55:06  INFO      [heartbeat] 18:55 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 07:56:07  INFO      [heartbeat] 18:56 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 07:57:08  INFO      [heartbeat] 18:57 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 07:58:09  INFO      [heartbeat] 18:58 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 07:59:09  INFO      [heartbeat] 18:59 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 08:00:09  INFO      [heartbeat] 19:00 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 08:01:10  INFO      [heartbeat] 19:01 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 08:02:10  INFO      [heartbeat] 19:02 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 08:03:10  INFO      [heartbeat] 19:03 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 08:04:11  INFO      [heartbeat] 19:04 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 08:05:11  INFO      [heartbeat] 19:05 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 08:06:11  INFO      [heartbeat] 19:06 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 08:07:11  INFO      [heartbeat] 19:07 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 08:08:12  INFO      [heartbeat] 19:08 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 08:09:12  INFO      [heartbeat] 19:09 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 08:10:12  INFO      [heartbeat] 19:10 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 08:11:13  INFO      [heartbeat] 19:11 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 08:12:13  INFO      [heartbeat] 19:12 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 08:13:13  INFO      [heartbeat] 19:13 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 08:14:14  INFO      [heartbeat] 19:14 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 08:15:14  INFO      [heartbeat] 19:15 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 08:16:14  INFO      [heartbeat] 19:16 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 08:17:15  INFO      [heartbeat] 19:17 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 08:18:15  INFO      [heartbeat] 19:18 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 08:19:15  INFO      [heartbeat] 19:19 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 08:20:15  INFO      [heartbeat] 19:20 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 08:21:16  INFO      [heartbeat] 19:21 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 08:22:16  INFO      [heartbeat] 19:22 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 08:23:16  INFO      [heartbeat] 19:23 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 08:24:17  INFO      [heartbeat] 19:24 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 08:25:17  INFO      [heartbeat] 19:25 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 08:26:17  INFO      [heartbeat] 19:26 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 08:27:18  INFO      [heartbeat] 19:27 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 08:28:18  INFO      [heartbeat] 19:28 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 08:29:18  INFO      [heartbeat] 19:29 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 08:30:19  INFO      [heartbeat] 19:30 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 08:31:19  INFO      [heartbeat] 19:31 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 08:32:19  INFO      [heartbeat] 19:32 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 08:33:19  INFO      [heartbeat] 19:33 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 08:34:20  INFO      [heartbeat] 19:34 ET  QQQ: flat(0주)  일일누적=$39,657/49,581
+2026-05-29 08:34:31  INFO      종료 신호 수신 — 안전 종료 중...
+2026-05-29 08:34:31  INFO      상태 저장 완료
